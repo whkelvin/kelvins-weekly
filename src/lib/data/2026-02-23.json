@@ -1,0 +1,129 @@
+{
+  "date": "2026-02-23",
+  "articles": [
+    {
+      "title": "How I Built a 10x Faster Rust JSON Parser",
+      "url": "https://news.ycombinator.com",
+      "why": "Practical SIMD techniques you can apply today",
+      "description": "A deep dive into SIMD optimizations and zero-copy parsing techniques that pushed throughput beyond existing solutions."
+    },
+    {
+      "title": "The Hidden Costs of Microservices at Scale",
+      "url": "https://news.ycombinator.com",
+      "why": "Know the tradeoffs before you commit to the architecture",
+      "description": "After five years running microservices in production, here's what nobody told us about operational overhead."
+    },
+    {
+      "title": "Why I Switched Back from Neovim to VS Code",
+      "url": "https://news.ycombinator.com",
+      "why": "A grounded take on the editor debate worth bookmarking",
+      "description": "Productivity isn't about the tool — it's about the workflow. A pragmatic developer reflects on the editor wars."
+    },
+    {
+      "title": "SQLite is Not a Toy Database",
+      "url": "https://news.ycombinator.com",
+      "why": "You're probably reaching for Postgres when you don't need to",
+      "description": "Most developers severely underestimate what SQLite can handle. Benchmarks and real-world case studies inside."
+    },
+    {
+      "title": "Demystifying the Linux TCP Stack",
+      "url": "https://news.ycombinator.com",
+      "why": "Rare annotated walkthrough of kernel networking code",
+      "description": "A kernel contributor explains the path a TCP packet takes from NIC to userspace, with annotated source references."
+    },
+    {
+      "title": "Type Systems Are Not About Preventing Bugs",
+      "url": "https://news.ycombinator.com",
+      "why": "Reframes how you think about types — genuinely useful",
+      "description": "A thought-provoking essay arguing that the real value of static types is documentation and communication, not correctness."
+    }
+  ],
+  "repos": [
+    {
+      "name": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "starsThisWeek": 1842,
+      "why": "If you're writing JS without types, this is why the community moved on",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output."
+    },
+    {
+      "name": "shadcn-ui/ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "starsThisWeek": 2310,
+      "why": "Copy-paste component library that doesn't lock you into a design system",
+      "description": "Beautifully designed components built with Radix UI and Tailwind CSS."
+    },
+    {
+      "name": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "starsThisWeek": 1650,
+      "why": "Replaces pip, pip-tools, and virtualenv — worth switching today",
+      "description": "An extremely fast Python package installer and resolver, written in Rust."
+    },
+    {
+      "name": "ggerganov/llama.cpp",
+      "url": "https://github.com/ggerganov/llama.cpp",
+      "starsThisWeek": 3201,
+      "why": "Run LLMs locally without a GPU or API key — essential for offline AI work",
+      "description": "LLM inference in C/C++ — run large language models locally with minimal setup."
+    },
+    {
+      "name": "pocketbase/pocketbase",
+      "url": "https://github.com/pocketbase/pocketbase",
+      "starsThisWeek": 980,
+      "why": "Single binary backend with auth, DB, and realtime — great for solo projects",
+      "description": "Open Source backend for your next SaaS and Mobile app in one file."
+    }
+  ],
+  "videos": [
+    {
+      "title": "The Future of Web Development in 2026",
+      "youtubeId": "dQw4w9WgXcQ",
+      "why": "Panel of top engineers — rare unfiltered look at where the web is headed",
+      "description": "Top engineers from Google, Vercel, and Cloudflare debate what the web platform will look like in the next five years. Edge computing, AI-native frameworks, and the death of the SPA era are all on the table."
+    },
+    {
+      "title": "Bun 2.0 is Here — Everything You Need to Know",
+      "youtubeId": "dQw4w9WgXcQ",
+      "why": "Big release — catch up in 20 minutes instead of reading the changelog",
+      "description": "Oven drops a massive release with native Windows support, improved bundler performance, and a revamped test runner."
+    },
+    {
+      "title": "Svelte 6 Deep Dive: Runes in Practice",
+      "youtubeId": "dQw4w9WgXcQ",
+      "why": "Straight from the team — best way to understand the new reactivity model",
+      "description": "Rich Harris and the Svelte team walk through every breaking change and why the rune-based reactivity model is a game changer."
+    },
+    {
+      "title": "Stop Using Docker for Local Dev",
+      "youtubeId": "dQw4w9WgXcQ",
+      "why": "Nix flakes are worth understanding — this is the best intro",
+      "description": "Nix flakes and devenv.sh have made Docker-compose setups obsolete for most local development workflows."
+    },
+    {
+      "title": "Postgres Just Beat Redis at Its Own Game",
+      "youtubeId": "dQw4w9WgXcQ",
+      "why": "Could simplify your stack significantly if you're already on Postgres",
+      "description": "With the new RESP protocol extension, Postgres can now serve as a drop-in Redis replacement at comparable speeds."
+    }
+  ],
+  "podcasts": [
+    {
+      "title": "Soft Skills Engineering — Ep. 412: Navigating a Toxic Codebase",
+      "why": "Practical advice for a situation most engineers will face eventually",
+      "description": "Dave and Jamison tackle listener questions about inheriting unmaintainable code and how to make progress without burning out.",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/0sk3d6UNjniVlxJUgOnrQR?utm_source=generator&theme=0"
+    },
+    {
+      "title": "Soft Skills Engineering — Ep. 411: How to Ask for a Raise",
+      "why": "Concrete scripts and timing tips you can use in your next 1:1",
+      "description": "The hosts break down how to frame the conversation, when to bring data, and what to do if the answer is no.",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/0sk3d6UNjniVlxJUgOnrQR?utm_source=generator&theme=0"
+    }
+  ],
+  "kelvinsPick": {
+    "title": "Designing Data-Intensive Applications — Free Chapter on Replication",
+    "url": "https://dataintensive.net",
+    "description": "Martin Kleppmann has released the replication chapter of DDIA as a free read. If you've ever been confused about leader election, quorums, or eventual consistency, this is the clearest explanation you'll find anywhere. Mandatory reading."
+  }
+}
