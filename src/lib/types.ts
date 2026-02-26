@@ -41,3 +41,39 @@ export interface Edition {
 	podcasts: Podcast[];
 	kelvinsPick: KelvinsPick;
 }
+
+// Draft types — raw journalist output (fewer fields than curated editions)
+export interface DraftArticle {
+	title: string;
+	url: string;
+}
+
+export interface DraftRepo {
+	name: string;
+	url: string;
+	starsThisWeek: number;
+}
+
+export interface DraftVideo {
+	title: string;
+	youtubeId: string;
+}
+
+export interface DraftPodcast {
+	title: string;
+	spotifyEmbedUrl: string;
+}
+
+export interface DraftEdition {
+	date: string;
+	articles: DraftArticle[];
+	repos: DraftRepo[];
+	videos: DraftVideo[];
+	podcasts: DraftPodcast[];
+	kelvinsPick: KelvinsPick;
+}
+
+export interface VetItem<T> {
+	data: T;
+	removed: boolean;
+}

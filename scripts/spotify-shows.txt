@@ -1,0 +1,3 @@
+# Spotify shows — one per line as name:showId
+Soft Skills Engineering:59I1XnvAB9fQzSj9SIKCoI
+The Changelog:5bBki72YeKSLUqyD94qsuJ
