@@ -75,5 +75,5 @@ export interface DraftEdition {
 
 export interface VetItem<T> {
 	data: T;
-	removed: boolean;
+	kept: boolean;
 }

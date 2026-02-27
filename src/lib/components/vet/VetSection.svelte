@@ -47,23 +47,38 @@
 		overIdx = null;
 	}
 
-	function toggleRemove(idx: number) {
+	function toggleKept(idx: number) {
 		items = items.map((item, i) =>
-			i === idx ? { ...item, removed: !item.removed } : item,
+			i === idx ? { ...item, kept: !item.kept } : item,
 		);
+	}
+
+	let allKept = $derived(items.length > 0 && items.every((item) => item.kept));
+
+	function toggleAll() {
+		const kept = !allKept;
+		items = items.map((item) => ({ ...item, kept }));
 	}
 </script>
 
 <section class="mb-8">
 	<div class="flex items-baseline justify-between mb-1">
 		<h2 class="section-heading !mb-0">{title}</h2>
-		<span class="text-xs font-mono text-stone-400">check to remove</span>
+		<div class="flex items-center gap-3">
+			<button
+				onclick={toggleAll}
+				class="text-xs font-mono text-stone-500 hover:text-stone-800 transition-colors"
+			>
+				{allKept ? "Uncheck All" : "Check All"}
+			</button>
+			<span class="text-xs font-mono text-stone-400">check to keep</span>
+		</div>
 	</div>
 	<div class="space-y-1">
 		{#each items as item, i (i)}
 			<div
 				class="flex items-start gap-2 p-2 rounded transition-all
-					{item.removed ? 'opacity-40' : ''}
+					{!item.kept ? 'opacity-40' : ''}
 					{overIdx === i && dragIdx !== i
 					? 'border-t-2 border-stone-500'
 					: 'border-t-2 border-transparent'}
@@ -84,22 +99,18 @@
 					<GripVertical size={16} />
 				</button>
 
-				<!-- Remove checkbox -->
-				<label class="mt-0.5 shrink-0 cursor-pointer" title="Remove from edition">
+				<!-- Keep checkbox -->
+				<label class="mt-0.5 shrink-0 cursor-pointer" title="Keep in edition">
 					<input
 						type="checkbox"
-						checked={item.removed}
-						onchange={() => toggleRemove(i)}
-						class="accent-red-600"
+						checked={item.kept}
+						onchange={() => toggleKept(i)}
+						class="accent-green-600 w-6 h-6"
 					/>
 				</label>
 
 				<!-- Content -->
-				<div
-					class="flex-1 min-w-0 {item.removed
-						? 'line-through decoration-stone-400'
-						: ''}"
-				>
+				<div class="flex-1 min-w-0">
 					{@render row(item.data, i)}
 				</div>
 			</div>

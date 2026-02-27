@@ -7,7 +7,6 @@
 @EngineeringwithUtsav
 @DistroTube
 @fknight
-@freecodecamp
 @infoq
 @JeffSu
 @KevinPowell
@@ -21,3 +20,5 @@
 @ycombinator
 @pragmaticengineer
 @anthropic-ai
+@cursor_ai
+@OpenAI

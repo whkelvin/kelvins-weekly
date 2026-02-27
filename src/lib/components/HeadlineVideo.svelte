@@ -2,7 +2,7 @@
   import type { Video } from "$lib/types";
   let { videos }: { videos: Video[] } = $props();
   let headline = $derived(videos[0]);
-  let rest = $derived(videos.slice(1, 3));
+  let rest = $derived(videos.slice(1));
 </script>
 
 <section>
@@ -28,7 +28,12 @@
     <ul class="space-y-5 mt-6">
       {#each rest as v}
         <li>
-          <a href="https://www.youtube.com/watch?v={v.youtubeId}" target="_blank" rel="noopener noreferrer" class="block group">
+          <a
+            href="https://www.youtube.com/watch?v={v.youtubeId}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block group"
+          >
             <p class="yizy-title group-hover:underline">{v.title}</p>
           </a>
           <p class="yizy-subtitle mt-1">{v.why}</p>

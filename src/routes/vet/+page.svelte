@@ -31,10 +31,10 @@
 				return;
 			}
 			draft = d;
-			articles = d.articles.map((a) => ({ data: a, removed: false }));
-			repos = d.repos.map((r) => ({ data: r, removed: false }));
-			videos = d.videos.map((v) => ({ data: v, removed: false }));
-			podcasts = d.podcasts.map((p) => ({ data: p, removed: false }));
+			articles = d.articles.map((a) => ({ data: a, kept: false }));
+			repos = d.repos.map((r) => ({ data: r, kept: false }));
+			videos = d.videos.map((v) => ({ data: v, kept: false }));
+			podcasts = d.podcasts.map((p) => ({ data: p, kept: false }));
 			showImport = false;
 			jsonInput = "";
 		} catch {
@@ -46,10 +46,10 @@
 		if (!draft) return;
 		const output: DraftEdition = {
 			date: draft.date,
-			articles: articles.filter((i) => !i.removed).map((i) => i.data),
-			repos: repos.filter((i) => !i.removed).map((i) => i.data),
-			videos: videos.filter((i) => !i.removed).map((i) => i.data),
-			podcasts: podcasts.filter((i) => !i.removed).map((i) => i.data),
+			articles: articles.filter((i) => i.kept).map((i) => i.data),
+			repos: repos.filter((i) => i.kept).map((i) => i.data),
+			videos: videos.filter((i) => i.kept).map((i) => i.data),
+			podcasts: podcasts.filter((i) => i.kept).map((i) => i.data),
 			kelvinsPick: draft.kelvinsPick,
 		};
 		navigator.clipboard.writeText(JSON.stringify(output, null, 2));

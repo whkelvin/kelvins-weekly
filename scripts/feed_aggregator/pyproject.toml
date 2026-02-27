@@ -1,0 +1,13 @@
+[project]
+name = "feed-aggregator"
+version = "0.1.0"
+description = "Aggregates feeds from HN, GitHub, PG essays, Dev.to, Spotify, and YouTube into a draft Edition JSON"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "feedparser",
+]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
