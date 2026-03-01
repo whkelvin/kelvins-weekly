@@ -9,7 +9,7 @@
 
 	const editions = getEditions();
 	let currentDate = $derived($page.params.date ?? editions[0]?.date ?? "");
-	let sidebarOpen = $state(true);
+	let sidebarOpen = $state(false);
 
 	type Font = "jetbrains" | "noto";
 	let font = $state<Font>("jetbrains");

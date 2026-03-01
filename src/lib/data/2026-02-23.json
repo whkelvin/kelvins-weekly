@@ -4,44 +4,44 @@
     {
       "title": "Bringing automated preview, review, and merge to Claude Code on desktop",
       "url": "https://claude.com/blog/preview-review-and-merge-with-claude-code",
-      "why": "",
-      "description": ""
+      "why": "Single tool for preview, review, merge—no context switching",
+      "description": "Claude Code desktop now previews running apps, auto-reviews code diffs with inline comments, monitors PR status, and can auto-fix CI failures and merge PRs—eliminating the need to juggle multiple windows"
     },
     {
       "title": "2026 Trader Bags: Are We Really Betting on This Mix of Coins?",
       "url": "https://dev.to/tanelith/2026-trader-bags-are-we-really-betting-on-this-mix-of-coins-2e1i",
-      "why": "",
-      "description": ""
+      "why": "Distinguish hype from substance when evaluating tech",
+      "description": "Portfolio curator questions whether the 7 most-voted cryptocurrencies represent sound technology or speculative hype—revealing that the list was built via polls rather than rigorous on-chain metrics"
     },
     {
       "title": "Scaling Headless Browsers: Managing Contexts vs. Instances",
       "url": "https://dev.to/deepak_mishra_35863517037/scaling-headless-browsers-managing-contexts-vs-instances-1d73",
-      "why": "",
-      "description": ""
+      "why": "Contexts are 50-150MB cheaper; scale hundreds per browser",
+      "description": "Instances are heavyweight (separate GPU/network per session), contexts are lightweight (share one browser). One browser hosts hundreds of contexts—trade-off: shared process means all contexts fail if browser crashes"
     },
     {
       "title": "The third era of AI software development",
       "url": "https://cursor.com/blog/third-era",
-      "why": "",
-      "description": ""
+      "why": "Autonomous agents handle tasks over hours/days independently",
+      "description": "Era 1: tab autocomplete. Era 2: synchronous agents via back-and-forth prompts. Era 3: cloud agents working asynchronously on longer tasks, reviewed via logs/video rather than diffs—one-third of Cursor PRs now from agents"
     },
     {
       "title": "Code Mode: give agents an entire API in 1,000 tokens",
       "url": "https://blog.cloudflare.com/code-mode-mcp/",
-      "why": "",
-      "description": ""
+      "why": "99.9% token reduction for API access—agents explore APIs dynamically",
+      "description": "Instead of listing all API endpoints as tools, agents use search() and execute() to explore and call APIs dynamically. Cloudflare's 2,500 endpoints fit in ~1,000 tokens instead of 1.17M"
     },
     {
       "title": "Measuring actual AI Impact for Engineering with Apache DevLake",
       "url": "https://devblogs.microsoft.com/all-things-azure/measuring-actual-ai-impact-for-engineering-with-apache-devlake",
-      "why": "",
-      "description": ""
+      "why": "Correlate AI adoption to real metrics, not vanity numbers",
+      "description": "Apache DevLake normalizes 20+ DevOps tools into one queryable database, revealing correlations like '75%+ Copilot adoption = 33% faster PR cycles and 2x deployment frequency'"
     },
     {
       "title": "Building frontend UIs with Codex and Figma",
       "url": "https://developers.openai.com/blog/building-frontend-uis-with-codex-and-figma",
-      "why": "",
-      "description": ""
+      "why": "Bidirectional design-to-code without manual recreation",
+      "description": "Figma MCP integration enables design-to-code generation and code-to-design capture, allowing teams to iterate between exploration and execution without manual recreation"
     }
   ],
   "repos": [
@@ -92,76 +92,76 @@
     {
       "title": "When open-sourcing your code goes wrong...",
       "youtubeId": "wzzh7Not8XE",
-      "why": "",
-      "description": ""
+      "why": "Public code reflects on your project; broken code damages credibility",
+      "description": "Open-sourcing requires proper packaging, testing, and documentation. Broken or unmaintainable code creates negative impression that extends beyond the code itself"
     },
     {
       "title": "Only extreme programmers will survive",
       "youtubeId": "Iu80Io2cNYw",
-      "why": "",
-      "description": ""
+      "why": "Extreme Programming disciplines—TDD, pair programming, refactoring—separate elite developers",
+      "description": "Extreme Programming demands simplicity, communication, feedback, courage, and respect. Pair programming, test-driven development, and relentless refactoring are core practices that most developers lack"
     },
     {
       "title": "4 Skills I'm Learning that AI Can't Replace (backed by data)",
       "youtubeId": "s_765enJBy8",
-      "why": "",
-      "description": ""
+      "why": "Build resilience against AI automation; maintain competitive advantage",
+      "description": "The Cockpit Rule (when to delegate vs. collaborate with AI), narrative/storytelling to move people, strategic communication frameworks, and intentional cognitive independence to avoid atrophy"
     },
     {
       "title": "Linux Commands in 30 Mins (Real-World Example)",
       "youtubeId": "fwP2JW_VnZI",
-      "why": "",
-      "description": ""
+      "why": "Linux proficiency remains essential; command-line skills never go obsolete",
+      "description": "Real-world Linux commands and workflows—core fundamentals for any developer working in production environments"
     },
     {
       "title": "Delete your CLAUDE.md (and your AGENT.md too)",
       "youtubeId": "GcNu6wrLTJc",
-      "why": "",
-      "description": ""
+      "why": "Long CLAUDE.md files lose impact; Claude ignores half the content in noise",
+      "description": "Keep CLAUDE.md short and focused—ruthlessly prune unnecessary rules so critical guardrails don't get buried. Overly verbose files dilute the signal"
     },
     {
       "title": "A computer for every agent",
       "youtubeId": "6Nru5OQq9O4",
-      "why": "",
-      "description": ""
+      "why": "Agents operating in sandboxed environments is the future of AI work",
+      "description": "Computer use is key to true agent autonomy—sandboxed, isolated computers let agents interact with UIs, navigate apps, and complete full workflows independently"
     },
     {
       "title": "Cursor now shows you demos, not diffs",
       "youtubeId": "XbZvC4KTH68",
-      "why": "",
-      "description": ""
+      "why": "Video demonstrations show what code does, not just what changed",
+      "description": "Agents send videos of their work instead of raw diffs—visual proof of functionality beats line-by-line code reviews for agent output"
     },
     {
       "title": "OpenClaw Creator Peter Steinberger's advice for developers",
       "youtubeId": "-RDPAPjDnp8",
-      "why": "",
-      "description": ""
+      "why": "Insights from building $100M dev tool; how to work effectively with AI agents",
+      "description": "Be playful, embrace iterative improvement like learning guitar. Your role shifts to architect, editor, prompt engineer—ship code you haven't read; use 5-10 agents in parallel"
     }
   ],
   "podcasts": [
     {
       "title": "Episode 501: Vibecoding CEO and doing to teaching",
       "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/0sk3d6UNjniVlxJUgOnrQR",
-      "why": "",
-      "description": ""
+      "why": "Understand pivot from teaching coding to building agents that code",
+      "description": "Amjad Masad (Replit CEO) on his controversial shift: from teaching millions to code to building AI agents that do it for you. Vibe coding democratizes software creation beyond technical experts"
     },
     {
       "title": "The Career Bet Every Engineer Must Make",
       "spotifyEmbedUrl": "https://open.spotify.com/embed/show/314xPkcFTQxY0ar1WnnmGp",
-      "why": "",
-      "description": ""
+      "why": "Understand career implications of AI—traditional developer roles are ending",
+      "description": "Former Meta I9 engineer Philip Su explains why writing code is no longer your most valuable skill. AI democratizes creation; design, product thinking, and taste become the real constraints"
     },
     {
       "title": "The mythical agent-month (News)",
       "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/1KIZyOhF56B6KuG7k32HcC",
-      "why": "",
-      "description": ""
+      "why": "Learn what AI agents can't solve—Brooks's Law still applies",
+      "description": "Design, product scoping, and taste remain practical constraints on quality software, even with AI agents. Adding agents doesn't solve fundamental estimation and scope problems"
     },
     {
       "title": "Mitchell Hashimoto's new way of writing code",
       "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/0bIuuNChmWXcwbIydP6Ckk",
-      "why": "",
-      "description": ""
+      "why": "Learn how elite developers work with parallel AI agents",
+      "description": "Always run agents asynchronously in background—while you code, agent plans; while it codes, you review. Kick off tasks before leaving so work progresses continuously"
     }
   ],
   "kelvinsPick": {
