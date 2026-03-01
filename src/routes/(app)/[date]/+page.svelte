@@ -2,7 +2,7 @@
   import type { PageData } from "./$types";
   import NewspaperHeader from "$lib/components/NewspaperHeader.svelte";
   import ArticleList from "$lib/components/ArticleList.svelte";
-  //import RepoList from "$lib/components/RepoList.svelte";
+  import RepoList from "$lib/components/RepoList.svelte";
   import HeadlineVideo from "$lib/components/HeadlineVideo.svelte";
   import PodcastSection from "$lib/components/PodcastSection.svelte";
   import KelvinsPick from "$lib/components/KelvinsPick.svelte";
@@ -29,7 +29,7 @@
   <!-- Column 3: Podcasts + Repos — order 3 always -->
   <div class="py-6 md:py-0 order-3 md:pl-6">
     <PodcastSection podcasts={edition.podcasts} />
-    <!--<RepoList repos={edition.repos} />-->
+    <RepoList repos={edition.repos} />
   </div>
 </div>
 

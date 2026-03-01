@@ -4,6 +4,7 @@ import json
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
+from pathlib import Path
 
 from sources.hn import fetch_top_hn
 from sources.gh_trending import fetch_gh_trending
@@ -76,13 +77,16 @@ def main():
 
     output = json.dumps(draft, indent=2, ensure_ascii=False)
 
-    if len(sys.argv) > 1:
-        outpath = sys.argv[1]
-        with open(outpath, "w") as f:
-            f.write(output + "\n")
-        print(f"Draft written to {outpath}", file=sys.stderr)
-    else:
-        print(output)
+    # Create output folder and save automatically
+    output_dir = Path(__file__).parent / "output"
+    output_dir.mkdir(exist_ok=True)
+    outpath = output_dir / f"{date.today().isoformat()}.json"
+    with open(outpath, "w") as f:
+        f.write(output + "\n")
+    print(f"Draft written to {outpath}", file=sys.stderr)
+
+    # Print to stdout as well for piping
+    print(output)
 
 
 if __name__ == "__main__":

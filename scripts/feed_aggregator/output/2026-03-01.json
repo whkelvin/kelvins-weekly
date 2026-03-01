@@ -1,0 +1,454 @@
+{
+  "date": "2026-03-01",
+  "articles": [
+    {
+      "title": "Cowork and plugins for teams across the enterprise",
+      "url": "https://claude.com/blog/cowork-plugins-across-enterprise"
+    },
+    {
+      "title": "Cowork and plugins for finance",
+      "url": "https://claude.com/blog/cowork-plugins-finance"
+    },
+    {
+      "title": "How AI helps break the cost barrier to COBOL modernization",
+      "url": "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization"
+    },
+    {
+      "title": "Statement from Dario Amodei on our discussions with the Department of War",
+      "url": "https://www.anthropic.com/news/statement-department-of-war"
+    },
+    {
+      "title": "We Will Not Be Divided",
+      "url": "https://notdivided.org"
+    },
+    {
+      "title": "IDF killed Gaza aid workers at point blank range in 2025 massacre: Report",
+      "url": "https://www.dropsitenews.com/p/israeli-soldiers-tel-sultan-gaza-red-crescent-civil-defense-massacre-report-forensic-architecture-earshot"
+    },
+    {
+      "title": "OpenAI – How to delete your account",
+      "url": "https://help.openai.com/en/articles/6378407-how-to-delete-your-account"
+    },
+    {
+      "title": "The Age Verification Trap: Verifying age undermines everyone's data protection",
+      "url": "https://spectrum.ieee.org/age-verification"
+    },
+    {
+      "title": "I built Timeframe, our family e-paper dashboard",
+      "url": "https://hawksley.org/2026/02/17/timeframe.html"
+    },
+    {
+      "title": "Microgpt",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/"
+    },
+    {
+      "title": "OpenAI agrees with Dept. of War to deploy models in their classified network",
+      "url": "https://twitter.com/sama/status/2027578652477821175"
+    },
+    {
+      "title": "I am directing the Department of War to designate Anthropic a supply-chain risk",
+      "url": "https://twitter.com/secwar/status/2027507717469049070"
+    },
+    {
+      "title": "Google API keys weren't secrets, but then Gemini changed the rules",
+      "url": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules"
+    },
+    {
+      "title": "InvariantSplit: Formal Invariants and Deterministic Settlement in a Weekend-Built EVM Primitive",
+      "url": "https://dev.to/doomhammerhell/invariantsplit-formal-invariants-and-deterministic-settlement-in-a-weekend-built-evm-primitive-4cjj"
+    },
+    {
+      "title": "MicroGPT: The Lightweight AI Agent Explained",
+      "url": "https://dev.to/onsen/microgpt-the-lightweight-ai-agent-explained-2mj5"
+    },
+    {
+      "title": "Serverless Cold Starts: Understanding and Mitigating",
+      "url": "https://dev.to/matt_frank_usa/serverless-cold-starts-understanding-and-mitigating-4bl"
+    },
+    {
+      "title": "What I Learned After 72 Hours as an Autonomous AI Agent on the Internet",
+      "url": "https://dev.to/colony0ai/what-i-learned-after-72-hours-as-an-autonomous-ai-agent-on-the-internet-36jo"
+    },
+    {
+      "title": "I Built a Real-Time AI Interview Coach Using Vision Agents — Here's How",
+      "url": "https://dev.to/skfaizan786/i-built-a-real-time-ai-interview-coach-using-vision-agents-heres-how-50k9"
+    },
+    {
+      "title": "What I have been reading this week (1st March)",
+      "url": "https://dev.to/094459/what-i-am-currently-reading-1st-march-g9d"
+    },
+    {
+      "title": "Commercial Organ Plugins Cost $400. Mine Cost a Weekend and Some Math.",
+      "url": "https://dev.to/seifzellaban/commercial-organ-plugins-cost-400-mine-cost-a-weekend-and-some-math-136i"
+    },
+    {
+      "title": "PostgreSQL global statistics on partitionned table require a manual ANALYZE",
+      "url": "https://dev.to/aws-heroes/postgresql-global-statistics-on-partitionned-table-require-a-manual-analyze-473h"
+    },
+    {
+      "title": "The Pursuit of Pixel-Perfect Observability: Lessons from Terminal Emulators",
+      "url": "https://dev.to/sovereignrevenueguard/the-pursuit-of-pixel-perfect-observability-lessons-from-terminal-emulators-35me"
+    },
+    {
+      "title": "Study Table: Task-focused environment",
+      "url": "https://dev.to/rai_shiv/study-table-task-focused-environment-2j95"
+    },
+    {
+      "title": "Building a Real-Time Gamified Posture AI with the Vision Agents SDK ⚔️🪑",
+      "url": "https://dev.to/harishkotra/building-a-real-time-gamified-posture-ai-with-the-vision-agents-sdk-6fk"
+    },
+    {
+      "title": "Building a Greenwashing Scanner for EU Green Claims Directive Compliance",
+      "url": "https://dev.to/julien786534/building-a-greenwashing-scanner-for-eu-green-claims-directive-compliance-2ko2"
+    },
+    {
+      "title": "The third era of AI software development",
+      "url": "https://cursor.com/blog/third-era"
+    },
+    {
+      "title": "Closing the code review loop with Bugbot Autofix",
+      "url": "https://cursor.com/blog/bugbot-autofix"
+    },
+    {
+      "title": "Cursor agents can now control their own computers",
+      "url": "https://cursor.com/blog/agent-computer-use"
+    },
+    {
+      "title": "Supercharge your AI agents: The New ADK Integrations Ecosystem",
+      "url": "https://developers.googleblog.com/supercharge-your-ai-agents-adk-integrations-ecosystem/"
+    },
+    {
+      "title": "On-Device Function Calling in Google AI Edge Gallery",
+      "url": "https://developers.googleblog.com/on-device-function-calling-in-google-ai-edge-gallery/"
+    },
+    {
+      "title": "How we rebuilt Next.js with AI in one week",
+      "url": "https://blog.cloudflare.com/vinext/"
+    },
+    {
+      "title": "February 2026 Insiders (version 1.110)",
+      "url": "https://devblogs.microsoft.com/vscode-blog/february-2026-insiders-(version-1.110)"
+    },
+    {
+      "title": "Measuring actual AI Impact for Engineering with Apache DevLake",
+      "url": "https://devblogs.microsoft.com/all-things-azure/measuring-actual-ai-impact-for-engineering-with-apache-devlake"
+    },
+    {
+      "title": "Announcing Shader Model 6.9 Retail and New D3D12 Improvements",
+      "url": "https://devblogs.microsoft.com/directx/shader-model-6-9-retail-and-more"
+    },
+    {
+      "title": "PIX 2602.25 and 2602.25-preview - support for new D3D features and misc quality-of-life improvements",
+      "url": "https://devblogs.microsoft.com/pix/pix-2602-25"
+    },
+    {
+      "title": "Vector Data in .NET - Building Blocks for AI Part 2",
+      "url": "https://devblogs.microsoft.com/dotnet/vector-data-in-dotnet-building-blocks-for-ai-part-2"
+    },
+    {
+      "title": "Fence Barriers: Fine-Grained GPU Synchronization in Direct3D 12",
+      "url": "https://devblogs.microsoft.com/directx/fence-barriers-fine-grained-gpu-synchronization-in-direct3d-12"
+    },
+    {
+      "title": "D3D12 Shader Execution Reordering",
+      "url": "https://devblogs.microsoft.com/directx/shader-execution-reordering"
+    },
+    {
+      "title": "D3D12 Opacity Micromaps",
+      "url": "https://devblogs.microsoft.com/directx/d3d12-opacity-micromaps"
+    },
+    {
+      "title": "Azure SDK Release (February 2026)",
+      "url": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-february-2026"
+    },
+    {
+      "title": "Intercepting messages inside <code>Is­Dialog­Message</code>, installing the message filter",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260226-00/?p=112090"
+    }
+  ],
+  "repos": [
+    {
+      "name": "OpenBB-finance/OpenBB",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "starsThisWeek": 1783
+    },
+    {
+      "name": "f/prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "starsThisWeek": 3072
+    },
+    {
+      "name": "evershopcommerce/evershop",
+      "url": "https://github.com/evershopcommerce/evershop",
+      "starsThisWeek": 555
+    },
+    {
+      "name": "sktime/sktime",
+      "url": "https://github.com/sktime/sktime",
+      "starsThisWeek": 44
+    },
+    {
+      "name": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "starsThisWeek": 2678
+    },
+    {
+      "name": "laurent22/joplin",
+      "url": "https://github.com/laurent22/joplin",
+      "starsThisWeek": 162
+    },
+    {
+      "name": "sindresorhus/awesome",
+      "url": "https://github.com/sindresorhus/awesome",
+      "starsThisWeek": 2453
+    },
+    {
+      "name": "sympy/sympy",
+      "url": "https://github.com/sympy/sympy",
+      "starsThisWeek": 35
+    },
+    {
+      "name": "ghostfolio/ghostfolio",
+      "url": "https://github.com/ghostfolio/ghostfolio",
+      "starsThisWeek": 111
+    },
+    {
+      "name": "NVIDIA/Megatron-LM",
+      "url": "https://github.com/NVIDIA/Megatron-LM",
+      "starsThisWeek": 229
+    },
+    {
+      "name": "frappe/books",
+      "url": "https://github.com/frappe/books",
+      "starsThisWeek": 254
+    },
+    {
+      "name": "openai/openai-cookbook",
+      "url": "https://github.com/openai/openai-cookbook",
+      "starsThisWeek": 210
+    },
+    {
+      "name": "seerr-team/seerr",
+      "url": "https://github.com/seerr-team/seerr",
+      "starsThisWeek": 381
+    },
+    {
+      "name": "ente-io/ente",
+      "url": "https://github.com/ente-io/ente",
+      "starsThisWeek": 216
+    },
+    {
+      "name": "swiftlang/swift",
+      "url": "https://github.com/swiftlang/swift",
+      "starsThisWeek": 56
+    },
+    {
+      "name": "danielgatis/rembg",
+      "url": "https://github.com/danielgatis/rembg",
+      "starsThisWeek": 138
+    },
+    {
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "starsThisWeek": 746
+    },
+    {
+      "name": "appsmithorg/appsmith",
+      "url": "https://github.com/appsmithorg/appsmith",
+      "starsThisWeek": 155
+    },
+    {
+      "name": "Drakkar-Software/OctoBot",
+      "url": "https://github.com/Drakkar-Software/OctoBot",
+      "starsThisWeek": 164
+    },
+    {
+      "name": "SerenityOS/serenity",
+      "url": "https://github.com/SerenityOS/serenity",
+      "starsThisWeek": 57
+    },
+    {
+      "name": "enaqx/awesome-react",
+      "url": "https://github.com/enaqx/awesome-react",
+      "starsThisWeek": 136
+    },
+    {
+      "name": "evidentlyai/evidently",
+      "url": "https://github.com/evidentlyai/evidently",
+      "starsThisWeek": 113
+    },
+    {
+      "name": "Farama-Foundation/Gymnasium",
+      "url": "https://github.com/Farama-Foundation/Gymnasium",
+      "starsThisWeek": 56
+    }
+  ],
+  "videos": [
+    {
+      "title": "When open-sourcing your code goes wrong...",
+      "youtubeId": "wzzh7Not8XE"
+    },
+    {
+      "title": "Programming projects that rewired my brain",
+      "youtubeId": "3GJcskn5mAg"
+    },
+    {
+      "title": "Only extreme programmers will survive",
+      "youtubeId": "Iu80Io2cNYw"
+    },
+    {
+      "title": "'xargs' - execute command lines from standard input - Video Man Pages",
+      "youtubeId": "tUkQcvytVtw"
+    },
+    {
+      "title": "Cheap Fix For Sinking Computer Chairs And Office Chairs",
+      "youtubeId": "I_urqL2bEX8"
+    },
+    {
+      "title": "KaOS Ditches KDE Plasma For Niri",
+      "youtubeId": "XOmc0Q_NX-o"
+    },
+    {
+      "title": "AI in Production: Lessons from the Trenches.",
+      "youtubeId": "OKiFZK70gDg"
+    },
+    {
+      "title": "Java DataFrames: The Missing Tool in Your Data-Oriented Toolkit",
+      "youtubeId": "BtHo0ggF7Bo"
+    },
+    {
+      "title": "Software Evolution with Microservices and LLMs: A Conversation with Chris Richardson",
+      "youtubeId": "c1K3H0z7vbw"
+    },
+    {
+      "title": "When to use #ChatGPT, #Gemini, and #Claude",
+      "youtubeId": "sfwax2dVPvI"
+    },
+    {
+      "title": "F1 Website Championship",
+      "youtubeId": "PBDU2krty0M"
+    },
+    {
+      "title": "linear() is so good",
+      "youtubeId": "mHgPSMkUHtQ"
+    },
+    {
+      "title": "CSS is too powerful now",
+      "youtubeId": "Y-3tPDZCk2o"
+    },
+    {
+      "title": "AI Ads Will Be The Next Land Grab (Here's How I'd Play It)",
+      "youtubeId": "n4T_f6vx5BE"
+    },
+    {
+      "title": "Linux Commands in 30 Mins (Real-World Example)",
+      "youtubeId": "fwP2JW_VnZI"
+    },
+    {
+      "title": "Cursor, Claude Code and Codex all have a BIG problem",
+      "youtubeId": "73F6ZURl1MQ"
+    },
+    {
+      "title": "Software engineering is dead now",
+      "youtubeId": "p2aea9dytpE"
+    },
+    {
+      "title": "Trump actually threatened Anthropic (this is bad…)",
+      "youtubeId": "MWFyApldYDA"
+    },
+    {
+      "title": "They cut Node.js Memory in half 👀",
+      "youtubeId": "h8Pz51ZEW5U"
+    },
+    {
+      "title": "My new app is really stupid (I wrote none of the code)",
+      "youtubeId": "9iUd2Ik-bBI"
+    },
+    {
+      "title": "Anthropic is lying to us.",
+      "youtubeId": "_k22WAEAfpE"
+    },
+    {
+      "title": "Delete your CLAUDE.md (and your AGENT.md too)",
+      "youtubeId": "GcNu6wrLTJc"
+    },
+    {
+      "title": "The Powerful Alternative To Fine-Tuning",
+      "youtubeId": "UPGB-hsAoVY"
+    },
+    {
+      "title": "Coding Will Be Solved For Everybody",
+      "youtubeId": "jnSGYd3gdOs"
+    },
+    {
+      "title": "Welcome - The Pragmatic Summit",
+      "youtubeId": "MSeCdJDj0P0"
+    },
+    {
+      "title": "Mitchell Hashimoto’s new way of writing code",
+      "youtubeId": "WjckELpzLOU"
+    },
+    {
+      "title": "Building world-class engineering teams in the age of AI - The Pragmatic Summit",
+      "youtubeId": "fYh1CWadxDM"
+    },
+    {
+      "title": "Data vs Hype: How Orgs Actually Win with AI - The Pragmatic Summit",
+      "youtubeId": "LOHgRw43fFk"
+    },
+    {
+      "title": "OpenAI: How AI is reshaping the craft of building software - The Pragmatic Summit",
+      "youtubeId": "Bo6Gtq3nMXc"
+    },
+    {
+      "title": "Kotlin's biggest challenge: interoperability with Java",
+      "youtubeId": "KkfpL5G0LOk"
+    },
+    {
+      "title": "Software is changing",
+      "youtubeId": "2SkrTnGMsr0"
+    },
+    {
+      "title": "A computer for every agent",
+      "youtubeId": "6Nru5OQq9O4"
+    },
+    {
+      "title": "Cursor now shows you demos, not diffs",
+      "youtubeId": "XbZvC4KTH68"
+    },
+    {
+      "title": "OpenClaw Creator Peter Steinberger's advice for developers",
+      "youtubeId": "-RDPAPjDnp8"
+    },
+    {
+      "title": "Peter Steinberger on the team that built OpenClaw",
+      "youtubeId": "Rp4Q2lZ_RIQ"
+    },
+    {
+      "title": "Peter Steinberger on the excitement around OpenClaw",
+      "youtubeId": "mR8Lz3Bc1rA"
+    },
+    {
+      "title": "Builders Unscripted: Ep. 1 - Peter Steinberger, Creator of OpenClaw",
+      "youtubeId": "9jgcT0Fqt7U"
+    }
+  ],
+  "podcasts": [
+    {
+      "title": "Episode 501: Vibecoding CEO and doing to teaching",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/0sk3d6UNjniVlxJUgOnrQR"
+    },
+    {
+      "title": "Opus 4.5 changed everything (Interview)",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/2rbL4yNFDYbr2QXnecmB5D"
+    },
+    {
+      "title": "The mythical agent-month (News)",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/1KIZyOhF56B6KuG7k32HcC"
+    },
+    {
+      "title": "Mitchell Hashimoto’s new way of writing code",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/0bIuuNChmWXcwbIydP6Ckk"
+    }
+  ]
+}
