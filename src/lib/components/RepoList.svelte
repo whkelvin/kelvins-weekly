@@ -17,7 +17,7 @@
           <div class="flex items-baseline justify-between gap-2">
             <p class="yizy-title group-hover:underline">{repo.name}</p>
             <span class="yizy-description whitespace-nowrap flex-shrink-0"
-              >★ {repo.starsThisWeek.toLocaleString()}</span
+              >+{repo.starsThisWeek.toLocaleString()}★</span
             >
           </div>
         </a>
