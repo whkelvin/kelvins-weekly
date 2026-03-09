@@ -10,12 +10,69 @@
 
 @theme {
   --font-mono: "JetBrains Mono", monospace;
+
+  --color-bg: var(--theme-bg);
+  --color-fg: var(--theme-fg);
+  --color-fg1: var(--theme-fg1);
+  --color-fg2: var(--theme-fg2);
+  --color-border: var(--theme-border);
+  --color-card-bg: var(--theme-card-bg);
+  --color-card-fg: var(--theme-card-fg);
+  --color-sidebar-bg: var(--theme-sidebar-bg);
+  --color-sidebar-fg: var(--theme-sidebar-fg);
+  --color-sidebar-item-hover: var(--theme-sidebar-item-hover);
+  --color-sidebar-item-active: var(--theme-sidebar-item-active);
+}
+
+:root,
+[data-theme="newspaper"] {
+  --theme-bg: var(--color-stone-200);
+  --theme-fg: var(--color-stone-800);
+  --theme-fg1: var(--color-stone-700);
+  --theme-fg2: var(--color-stone-500);
+  --theme-border: var(--color-stone-300);
+  --theme-card-bg: var(--color-stone-300);
+  --theme-card-fg: var(--color-stone-800);
+  --theme-sidebar-bg: var(--color-stone-900);
+  --theme-sidebar-fg: var(--color-stone-100);
+  --theme-sidebar-item-hover: var(--color-stone-700);
+  --theme-sidebar-item-active: var(--color-stone-100);
+}
+
+/* Newspaper dark — shadcn dark mode palette */
+[data-theme="newspaper-dark"] {
+  --theme-bg: #202020;
+  --theme-fg: #ebebeb;
+  --theme-fg1: #d6d6d6;
+  --theme-fg2: #a3a3a3;
+  --theme-border: #262626;
+  --theme-card-bg: #262626;
+  --theme-card-fg: #fafafa;
+  --theme-sidebar-bg: #0a0a0a;
+  --theme-sidebar-fg: #fafafa;
+  --theme-sidebar-item-hover: #262626;
+  --theme-sidebar-item-active: #fafafa;
+}
+
+/* Nord dark theme — https://www.nordtheme.com/docs/colors-and-palettes */
+[data-theme="nord"] {
+  --theme-bg: #3b4252;
+  --theme-fg: #8fbcbb;
+  --theme-fg1: #e5e9f0;
+  --theme-fg2: #6a7895;
+  --theme-border: #4c566a;
+  --theme-card-bg: #434c5e;
+  --theme-card-fg: #eceff4;
+  --theme-sidebar-bg: #2e3440;
+  --theme-sidebar-fg: #d8dee9;
+  --theme-sidebar-item-hover: #4c566a;
+  --theme-sidebar-item-active: #8fbcbb;
 }
 
 body {
   font-family: "JetBrains Mono", monospace;
   font-weight: 400;
-  background-color: var(--color-stone-200);
+  background-color: var(--color-bg);
 }
 
 body.font-noto-sans,
@@ -36,7 +93,7 @@ body.font-noto-sans .font-jetbrains * {
   font-weight: 800;
   font-size: 1.125rem;
   letter-spacing: -0.025em;
-  color: var(--color-stone-800);
+  color: var(--color-fg);
   line-height: 1.25;
 }
 
@@ -44,7 +101,7 @@ body.font-noto-sans .font-jetbrains * {
   font-family: "JetBrains Mono", monospace;
   font-weight: 600;
   font-size: 0.875rem;
-  color: var(--color-stone-700);
+  color: var(--color-fg1);
   line-height: 1.375;
 }
 
@@ -52,7 +109,7 @@ body.font-noto-sans .font-jetbrains * {
   font-family: "JetBrains Mono", monospace;
   font-weight: 400;
   font-size: 0.875rem;
-  color: var(--color-stone-500);
+  color: var(--color-fg2);
   line-height: 1.375;
 }
 
@@ -63,8 +120,8 @@ body.font-noto-sans .font-jetbrains * {
   font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--color-stone-800);
-  border-bottom: 2px solid var(--color-stone-800);
+  color: var(--color-fg);
+  border-bottom: 2px solid var(--color-fg);
   padding-bottom: 0.25rem;
   margin-bottom: 0.75rem;
 }

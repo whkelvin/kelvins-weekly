@@ -21,7 +21,7 @@
             <p class="yizy-title group-hover:underline">{v.title}</p>
           </a>
           <p class="yizy-subtitle mt-1">{v.why}</p>
-          <div class="aspect-video w-full bg-stone-800 mt-2">
+          <div class="aspect-video w-full bg-fg mt-2">
             <iframe
               src="https://www.youtube.com/embed/{v.youtubeId}"
               title={v.title}
@@ -51,7 +51,7 @@
           </a>
           <p class="yizy-subtitle mt-1">{v.why}</p>
           <!-- Embed: visible on mobile, hidden on desktop -->
-          <div class="aspect-video w-full bg-stone-800 mt-2 md:hidden">
+          <div class="aspect-video w-full bg-fg mt-2 md:hidden">
             <iframe
               src="https://www.youtube.com/embed/{v.youtubeId}"
               title={v.title}

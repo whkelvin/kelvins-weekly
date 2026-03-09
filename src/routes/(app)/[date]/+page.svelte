@@ -14,7 +14,7 @@
 <NewspaperHeader date={edition.date} />
 
 <div
-  class="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-6 divide-y md:divide-y-0 md:divide-x divide-stone-300"
+  class="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-6 divide-y md:divide-y-0 md:divide-x divide-border"
 >
   <!-- Column 1: Articles + Repos — order 2 on mobile, 1 on desktop -->
   <div class="py-6 md:py-0 order-2 md:order-1 md:pr-6">

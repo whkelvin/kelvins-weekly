@@ -24,7 +24,7 @@
 <!-- Sidebar panel -->
 <aside
 	class="
-		fixed top-0 left-0 h-full z-40 overflow-hidden bg-stone-900 text-stone-100
+		fixed top-0 left-0 h-full z-40 overflow-hidden bg-sidebar-bg text-sidebar-fg
 		transition-all duration-200
 		{open ? 'w-56' : 'w-0'}
 		md:sticky md:top-0 md:h-screen md:flex-shrink-0
@@ -33,13 +33,13 @@
 	<div class="w-56 h-full overflow-y-auto p-5">
 		<!-- Desktop close button -->
 		<button
-			class="hidden md:flex items-center gap-2 text-stone-400 hover:text-stone-100 text-xs font-mono tracking-widest uppercase mb-4 mt-1"
+			class="hidden md:flex items-center gap-2 text-sidebar-fg hover:text-sidebar-fg text-xs font-mono tracking-widest uppercase mb-4 mt-1"
 			onclick={() => (open = false)}
 		>
 			✕ <span>Close</span>
 		</button>
 
-		<p class="text-xs tracking-widest uppercase text-stone-400 font-mono font-bold mb-3 mt-8 md:mt-0">
+		<p class="text-xs tracking-widest uppercase text-sidebar-fg font-mono font-bold mb-3 mt-8 md:mt-0">
 			Past Editions
 		</p>
 		<nav>
@@ -50,8 +50,8 @@
 							href="/{edition.date}"
 							class="block px-3 py-2 text-sm font-mono whitespace-nowrap
 								{currentDate === edition.date
-								? 'bg-stone-100 text-stone-900 font-bold'
-								: 'text-stone-300 hover:bg-stone-700 hover:text-stone-100'}"
+								? 'bg-sidebar-item-active text-sidebar-bg font-bold'
+								: 'text-sidebar-fg hover:bg-sidebar-item-hover hover:text-sidebar-fg'}"
 							onclick={() => { if (window.innerWidth < 768) open = false; }}
 						>
 							{formatShort(edition.date)}

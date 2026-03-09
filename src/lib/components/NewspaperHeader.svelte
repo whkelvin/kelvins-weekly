@@ -12,27 +12,26 @@
 </script>
 
 <header
-  class="font-jetbrains border-b-4 border-stone-900 pb-4 mb-6 text-center"
+  class="font-jetbrains border-b-4 border-fg pb-4 mb-6 text-center"
 >
-  <p class="text-xs tracking-widest uppercase text-stone-500 mb-2 font-mono">
+  <p class="text-xs tracking-widest uppercase text-fg2 mb-2 font-mono">
     {formatDate(date)}
   </p>
   <h1
-    class="text-5xl md:text-7xl font-mono tracking-tight text-stone-900 leading-none"
-    style="font-weight: 800; -webkit-text-stroke: 1px #1c1917;"
+    class="text-5xl md:text-7xl font-mono tracking-tight text-fg font-extrabold leading-none"
   >
     Kelvin's Weekly
   </h1>
-  <div class="mt-3 border-t border-b border-stone-400 py-2">
+  <div class="mt-3 border-t border-b border-border py-2">
     <p
-      class="text-base md:text-lg font-bold font-mono text-stone-500 tracking-wide"
+      class="text-base md:text-lg font-bold font-mono text-fg2 tracking-wide"
     >
-      <span class="text-stone-400">/*</span>
+      <span class="text-fg2">/*</span>
       <span class="mx-2">
         Feeling left behind as a software developer? Stay ahead at
         weekly.yizy.dev
       </span>
-      <span class="text-stone-400">*/</span>
+      <span class="text-fg2">*/</span>
     </p>
   </div>
 </header>
