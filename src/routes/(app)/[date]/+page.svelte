@@ -13,6 +13,8 @@
 
 <NewspaperHeader date={edition.date} />
 
+<KelvinsPick pick={edition.kelvinsPick} />
+
 <div
   class="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-6 divide-y md:divide-y-0 md:divide-x divide-border"
 >
@@ -32,5 +34,3 @@
     <RepoList repos={edition.repos} />
   </div>
 </div>
-
-<KelvinsPick pick={edition.kelvinsPick} />
