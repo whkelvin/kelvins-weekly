@@ -32,12 +32,22 @@
 >
 	<div class="w-56 h-full overflow-y-auto p-5">
 		<!-- Desktop close button -->
-		<button
-			class="hidden md:flex items-center gap-2 text-sidebar-fg hover:text-sidebar-fg text-xs font-mono tracking-widest uppercase mb-4 mt-1"
-			onclick={() => (open = false)}
-		>
-			✕ <span>Close</span>
-		</button>
+		<nav class="mb-8">
+			<ul class="space-y-1">
+				<li>
+					<a
+						href="/home"
+						class="block px-3 py-2 text-sm font-mono whitespace-nowrap uppercase tracking-widest
+							{currentDate === 'home'
+							? 'bg-sidebar-item-active text-sidebar-bg font-bold'
+							: 'text-sidebar-fg hover:bg-sidebar-item-hover hover:text-sidebar-fg'}"
+						onclick={() => { if (window.innerWidth < 768) open = false; }}
+					>
+						Home
+					</a>
+				</li>
+			</ul>
+		</nav>
 
 		<p class="text-xs tracking-widest uppercase text-sidebar-fg font-mono font-bold mb-3 mt-8 md:mt-0">
 			Past Editions

@@ -1,8 +1,10 @@
 import { getLatestEdition } from '$lib/data/index';
-import { redirect } from '@sveltejs/kit';
 
 export const prerender = true;
 
 export function load() {
-	redirect(307, '/home');
+	const latest = getLatestEdition();
+	return {
+		latestDate: latest.date
+	};
 }
