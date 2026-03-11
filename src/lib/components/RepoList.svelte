@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Repo } from "$lib/types";
+  import KelvinsPickTag from "$lib/components/KelvinsPickTag.svelte";
   let { repos }: { repos: Repo[] } = $props();
 </script>
 
@@ -21,6 +22,7 @@
             >
           </div>
         </a>
+        {#if repo.kelvinsPick}<KelvinsPickTag />{/if}
         <!--
         <p class="yizy-subtitle mt-1">{repo.why}</p>
         <p class="yizy-description mt-1">{repo.description}</p>

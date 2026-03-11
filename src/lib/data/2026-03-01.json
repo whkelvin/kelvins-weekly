@@ -2,6 +2,7 @@
   "date": "2026-03-01",
   "articles": [
     {
+      "kelvinsPick": true,
       "title": "Code Mode: give agents an entire API in 1,000 tokens",
       "url": "https://blog.cloudflare.com/code-mode-mcp/",
       "why": "Agents can explore and compose APIs dynamically without exposing thousands of endpoints as separate tools",
@@ -20,6 +21,7 @@
       "description": "Claude Code desktop starts dev servers and previews running apps directly in the editor, auto-reviews code changes with inline comments, tracks pull request status, and automatically fixes failing tests or merges PRs once checks pass."
     },
     {
+      "kelvinsPick": true,
       "title": "The third era of AI software development",
       "url": "https://cursor.com/blog/third-era",
       "why": "Developers are shifting from writing code to architecting workflows and managing autonomous agent teams",
@@ -163,6 +165,7 @@
   ],
   "videos": [
     {
+      "kelvinsPick": true,
       "title": "Delete your CLAUDE.md (and your AGENT.md too)",
       "youtubeId": "GcNu6wrLTJc",
       "why": "Verbose instruction files dilute critical guardrails by burying them in noise that LLMs ignore",
@@ -219,6 +222,7 @@
       "description": "Amjad Masad explains Replit's shift from teaching millions to code toward building AI agents that do it for them. Vibe coding removes the technical barrier, enabling non-experts to build software independently."
     },
     {
+      "kelvinsPick": true,
       "title": "The Career Bet Every Engineer Must Make",
       "spotifyEmbedUrl": "https://open.spotify.com/embed/show/314xPkcFTQxY0ar1WnnmGp",
       "why": "AI fundamentally reshapes what skills developers should prioritize in their careers",

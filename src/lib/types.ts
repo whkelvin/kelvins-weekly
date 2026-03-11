@@ -3,6 +3,7 @@ export interface Article {
   url: string;
   why: string;
   description: string;
+  kelvinsPick?: boolean;
 }
 
 export interface Repo {
@@ -11,6 +12,7 @@ export interface Repo {
   starsThisWeek: number;
   //why: string;
   //description: string;
+  kelvinsPick?: boolean;
 }
 
 export interface Video {
@@ -18,6 +20,7 @@ export interface Video {
   youtubeId: string;
   why: string;
   description: string;
+  kelvinsPick?: boolean;
 }
 
 export interface Podcast {
@@ -25,6 +28,7 @@ export interface Podcast {
   why: string;
   description: string;
   spotifyEmbedUrl: string;
+  kelvinsPick?: boolean;
 }
 
 export interface KelvinsPick {

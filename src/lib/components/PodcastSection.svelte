@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Podcast } from "$lib/types";
+  import KelvinsPickTag from "$lib/components/KelvinsPickTag.svelte";
   let { podcasts }: { podcasts: Podcast[] } = $props();
 </script>
 
@@ -9,6 +10,7 @@
     {#each podcasts as podcast}
       <div>
         <p class="yizy-title">{podcast.title}</p>
+        {#if podcast.kelvinsPick}<KelvinsPickTag />{/if}
         <p class="yizy-subtitle mt-1">{podcast.why}</p>
         <iframe
           data-testid="embed-iframe"

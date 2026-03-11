@@ -2,6 +2,7 @@
   "date": "2026-03-08",
   "articles": [
     {
+      "kelvinsPick": true,
       "title": "A GitHub Issue Title Compromised 4k Developer Machines",
       "url": "https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another",
       "why": "AI triage bots executing untrusted code represent a new supply chain attack surface developers must secure",
@@ -26,6 +27,7 @@
       "description": "Agent skill authoring now has automated evals and regression testing. This enables reliable skills that degrade gracefully as models evolve."
     },
     {
+      "kelvinsPick": true,
       "title": "The Brand Age",
       "url": "https://paulgraham.com/brandage.html",
       "why": "Engineering-led golden ages transition to brand-focused markets as commoditization kills performance differentiation",
@@ -113,6 +115,7 @@
       "description": "AI-generated design creates inconsistent technical debt without intentional architecture. Developers must maintain intellectual ownership by manually crafting unique elements while using AI for boilerplate."
     },
     {
+      "kelvinsPick": true,
       "title": "I can't believe nobody's done this before...",
       "youtubeId": "sFEDAkJy9Dc",
       "why": "WebSocket-based tool calling replaces stateless HTTP to reduce latency and costs for autonomous agents",
@@ -163,6 +166,7 @@
   ],
   "podcasts": [
     {
+      "kelvinsPick": true,
       "title": "Building Claude Code with Boris Cherny",
       "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/3fuz0q5vlIQE1DB6JmKZ8B",
       "why": "Agentic workflows enable shipping 30 pull requests daily by automating the entire development cycle",

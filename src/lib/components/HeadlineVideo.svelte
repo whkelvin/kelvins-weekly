@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Video } from "$lib/types";
+  import KelvinsPickTag from "$lib/components/KelvinsPickTag.svelte";
   let { videos }: { videos: Video[] } = $props();
   let top = $derived(videos.slice(0, 3));
   let rest = $derived(videos.slice(3));
@@ -20,6 +21,7 @@
           >
             <p class="yizy-title group-hover:underline">{v.title}</p>
           </a>
+          {#if v.kelvinsPick}<KelvinsPickTag />{/if}
           <p class="yizy-subtitle mt-1">{v.why}</p>
           <div class="aspect-video w-full bg-fg mt-2">
             <iframe
@@ -49,6 +51,7 @@
           >
             <p class="yizy-title group-hover:underline">{v.title}</p>
           </a>
+          {#if v.kelvinsPick}<KelvinsPickTag />{/if}
           <p class="yizy-subtitle mt-1">{v.why}</p>
           <!-- Embed: visible on mobile, hidden on desktop -->
           <div class="aspect-video w-full bg-fg mt-2 md:hidden">
