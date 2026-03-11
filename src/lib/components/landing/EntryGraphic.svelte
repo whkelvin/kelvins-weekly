@@ -70,8 +70,4 @@
     </div>
   </div>
 
-  <!-- Mobile arrows (shown between entry and explanations on small screens) -->
-  <div class="md:hidden text-center text-fg2 font-mono text-sm -mt-8 -mb-4">
-    <span class="inline-block rotate-90">---&gt;</span>
-  </div>
 </section>

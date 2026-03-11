@@ -1,16 +1,14 @@
 <script lang="ts">
-  import StampIcon from '$lib/components/StampIcon.svelte';
 </script>
 
 <section class="my-20 py-12 border-y-2 border-fg">
   <div class="max-w-3xl mx-auto">
-    <div class="mb-8 flex items-center gap-4">
+    <div class="mb-8">
       <h2
         class="text-2xl md:text-3xl font-extrabold font-mono text-fg uppercase tracking-tighter leading-none"
       >
         Kelvin's Pick
       </h2>
-      <StampIcon size={36} />
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-5 gap-10 items-start">
@@ -39,8 +37,7 @@
           <div class="flex gap-3">
             <span class="flex-shrink-0 text-fg font-bold text-sm">></span>
             <p class="text-sm text-fg2 font-mono">
-              <span class="font-bold text-fg">Personally vetted:</span> Not an automated
-              list. Every pick is reviewed for quality and impact.
+              <span class="font-bold text-fg">Personally vetted:</span> Kelvin's hand picked favorite.
             </p>
           </div>
         </div>
