@@ -36,7 +36,7 @@
 			<ul class="space-y-1">
 				<li>
 					<a
-						href="/home"
+						href="/"
 						class="block px-3 py-2 text-sm font-mono whitespace-nowrap uppercase tracking-widest
 							{currentDate === 'home'
 							? 'bg-sidebar-item-active text-sidebar-bg font-bold'

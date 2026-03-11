@@ -9,7 +9,7 @@
 	let { children } = $props();
 
 	const editions = getEditions();
-	let currentDate = $derived($page.url.pathname.endsWith('/home') ? 'home' : ($page.params.date ?? editions[0]?.date ?? ""));
+	let currentDate = $derived($page.url.pathname === '/' || $page.url.pathname.endsWith('/home') ? 'home' : ($page.params.date ?? editions[0]?.date ?? ""));
 	let sidebarOpen = $state(false);
 
 	type Font = "jetbrains" | "noto";
