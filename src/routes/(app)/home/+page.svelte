@@ -8,30 +8,6 @@
   let { data } = $props();
 </script>
 
-<svelte:head>
-  <title>Kelvin's Weekly — Curated Engineering Content from Top Tech Companies</title>
-  <meta name="description" content="Stop drowning in tech news. Kelvin's Weekly curates the highest-signal engineering content from Anthropic, OpenAI, Vercel, and other frontier labs — with clear 'Why' context for every entry so you can triage in minutes." />
-  <meta property="og:title" content="Kelvin's Weekly — Curated Engineering Content from Top Tech Companies" />
-  <meta property="og:description" content="Curated engineering intelligence from the world's best engineering teams. One dispatch every Sunday." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://weekly.yizy.dev" />
-  <meta property="og:image" content="https://assets.yizy.dev/kelvins-weekly.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://assets.yizy.dev/kelvins-weekly.png" />
-  <meta name="twitter:title" content="Kelvin's Weekly — Engineering Intelligence for Developers" />
-  <meta name="twitter:description" content="Curated engineering content from Anthropic, OpenAI, Vercel, and frontier labs. One dispatch every Sunday." />
-  {@html `<script type="application/ld+json">${JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Kelvin's Weekly",
-    "url": "https://weekly.yizy.dev",
-    "description": "Curated engineering content from top tech companies for modern software developers.",
-    "publisher": {
-      "@type": "Person",
-      "name": "Kelvin"
-    }
-  })}</script>`}
-</svelte:head>
 
 <main class="max-w-4xl mx-auto py-12 px-4 md:px-0">
   <!-- Section 1: ASCII Art Hero & Value Proposition -->

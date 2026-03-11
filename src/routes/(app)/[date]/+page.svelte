@@ -11,18 +11,6 @@
   let { edition } = $derived(data);
 </script>
 
-<svelte:head>
-  <title>Kelvin's Weekly — {edition.date}</title>
-  <meta property="og:title" content="Kelvin's Weekly — {edition.date}" />
-  <meta property="og:description" content="Curated engineering content from top tech companies. One dispatch every Sunday." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://weekly.yizy.dev/{edition.date}" />
-  <meta property="og:image" content="https://assets.yizy.dev/kelvins-weekly.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Kelvin's Weekly — {edition.date}" />
-  <meta name="twitter:image" content="https://assets.yizy.dev/kelvins-weekly.png" />
-</svelte:head>
-
 <NewspaperHeader date={edition.date} />
 
 <KelvinsPick pick={edition.kelvinsPick} />
