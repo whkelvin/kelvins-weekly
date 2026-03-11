@@ -1,24 +1,19 @@
+<div class="md:hidden text-center" aria-label="Kelvin's Weekly">
+  <span class="text-fg font-mono font-extrabold text-3xl">Kelvin's Weekly</span>
+</div>
+
 <div
-  class="md:flex md:flex-row md:items-center md:justify-center md:gap-3"
+  class="hidden md:flex md:justify-center"
   aria-label="Kelvin's Weekly"
   role="img"
 >
   <pre
-    class="text-fg font-mono font-extrabold leading-none text-[0.4rem] sm:text-[0.45rem] md:text-[0.65rem] lg:text-[0.7rem]"
-    aria-hidden="true"
-  >{`██╗  ██╗███████╗██╗    ██╗   ██╗██╗███╗   ██╗ ██╗███████╗
-██║ ██╔╝██╔════╝██║    ██║   ██║██║████╗  ██║ ╚═╝██╔════╝
-█████╔╝ █████╗  ██║    ██║   ██║██║██╔██╗ ██║    ███████╗
-██╔═██╗ ██╔══╝  ██║    ╚██╗ ██╔╝██║██║╚██╗██║    ╚════██║
-██║  ██╗███████╗██████╗ ╚████╔╝ ██║██║ ╚████║    ███████║
-╚═╝  ╚═╝╚══════╝╚═════╝  ╚═══╝  ╚═╝╚═╝  ╚═══╝    ╚══════╝`}</pre>
-  <pre
-    class="text-fg font-mono font-extrabold leading-none text-[0.4rem] sm:text-[0.45rem] md:text-[0.65rem] lg:text-[0.7rem]"
-    aria-hidden="true"
-  >{`██╗    ██╗███████╗███████╗██╗  ██╗██╗  ██╗   ██╗
-██║    ██║██╔════╝██╔════╝██║ ██╔╝██║  ╚██╗ ██╔╝
-██║ █╗ ██║█████╗  █████╗  █████╔╝ ██║   ╚████╔╝
-██║███╗██║██╔══╝  ██╔══╝  ██╔═██╗ ██║    ╚██╔╝
-╚███╔███╔╝███████╗███████╗██║  ██╗███████╗ ██║
-╚══╝╚══╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝ ╚═╝`}</pre>
+    class="text-fg font-mono font-extrabold leading-none inline-block text-left mx-auto text-[0.3rem] sm:text-[0.45rem] md:text-[0.65rem] lg:text-[0.7rem]"
+    aria-label="Kelvin's Weekly">
+██╗  ██╗███████╗██╗    ██╗   ██╗██╗███╗   ██╗ ██╗███████╗    ██╗    ██╗███████╗███████╗██╗  ██╗██╗  ██╗   ██╗
+██║ ██╔╝██╔════╝██║    ██║   ██║██║████╗  ██║ ╚═╝██╔════╝    ██║    ██║██╔════╝██╔════╝██║ ██╔╝██║  ╚██╗ ██╔╝
+█████╔╝ █████╗  ██║    ██║   ██║██║██╔██╗ ██║    ███████╗    ██║ █╗ ██║█████╗  █████╗  █████╔╝ ██║   ╚████╔╝
+██╔═██╗ ██╔══╝  ██║    ╚██╗ ██╔╝██║██║╚██╗██║    ╚════██║    ██║███╗██║██╔══╝  ██╔══╝  ██╔═██╗ ██║    ╚██╔╝
+██║  ██╗███████╗██████╗ ╚████╔╝ ██║██║ ╚████║    ███████║    ╚███╔███╔╝███████╗███████╗██║  ██╗███████╗ ██║
+╚═╝  ╚═╝╚══════╝╚═════╝  ╚═══╝  ╚═╝╚═╝  ╚═══╝    ╚══════╝     ╚══╝╚══╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝ ╚═╝</pre>
 </div>
