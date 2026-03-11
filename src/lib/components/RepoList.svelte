@@ -16,7 +16,7 @@
           class="block group"
         >
           <div class="flex items-baseline justify-between gap-2">
-            <p class="yizy-title group-hover:underline">{repo.name}</p>
+            <p class="yizy-title group-hover:underline break-all">{repo.name}</p>
             <span class="yizy-description whitespace-nowrap flex-shrink-0"
               >+{repo.starsThisWeek.toLocaleString()}★</span
             >
