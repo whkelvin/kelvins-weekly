@@ -15,7 +15,9 @@
   <meta property="og:description" content="Curated engineering intelligence from the world's best engineering teams. One dispatch every Sunday." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://weekly.yizy.dev" />
+  <meta property="og:image" content="https://assets.yizy.dev/kelvins-weekly.png" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://assets.yizy.dev/kelvins-weekly.png" />
   <meta name="twitter:title" content="Kelvin's Weekly — Engineering Intelligence for Developers" />
   <meta name="twitter:description" content="Curated engineering content from Anthropic, OpenAI, Vercel, and frontier labs. One dispatch every Sunday." />
   {@html `<script type="application/ld+json">${JSON.stringify({
