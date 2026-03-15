@@ -1,0 +1,167 @@
+{
+  "date": "2026-03-15",
+  "articles": [
+    {
+      "title": "Addressing GitHub’s recent availability issues",
+      "url": "https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2/",
+      "why": "Understanding how to handle architectural cascading failures at scale.",
+      "description": "GitHub’s February and March outages revealed critical issues with insufficient service isolation and load-shedding safeguards. The platform is redesigning caches, migrating to Azure infrastructure, and decomposing monolithic systems to prevent failures from cascading.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Slashing agent token costs by 98% with RFC 9457-compliant error responses",
+      "url": "https://blog.cloudflare.com/rfc-9457-agent-error-pages/",
+      "why": "Machine-readable error formats dramatically reduce LLM token consumption and improve error handling reliability.",
+      "description": "Structured error responses using RFC 9457 compresses payloads from 46k bytes and 14k tokens down to 800 bytes and 221 tokens. By embedding operational metadata like retry_after and error_category, agents can execute deterministic control flow instead of parsing HTML, enabling faster recovery with minimal model overhead.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "No, it doesn't cost Anthropic $5k per Claude Code user",
+      "url": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
+      "why": "Clarifies the actual economics of Claude Code and subscription models by comparing retail vs infrastructure costs.",
+      "description": "The $5k loss claim confuses API pricing with compute costs. Actual infrastructure costs are roughly 10% of retail pricing, meaning a heavy user consuming $5k in API-equivalent charges costs around $500 to serve. Most users average $6 daily, making the service profitable at typical usage levels.",
+      "kelvinsPick": false
+    }
+  ],
+  "repos": [
+    {
+      "name": "f/prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "starsThisWeek": 531,
+      "kelvinsPick": false
+    },
+    {
+      "name": "sindresorhus/awesome",
+      "url": "https://github.com/sindresorhus/awesome",
+      "starsThisWeek": 315,
+      "kelvinsPick": false
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "starsThisWeek": 200,
+      "kelvinsPick": false
+    },
+    {
+      "name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "starsThisWeek": 150,
+      "kelvinsPick": false
+    },
+    {
+      "name": "jj-vcs/jj",
+      "url": "https://github.com/jj-vcs/jj",
+      "starsThisWeek": 121,
+      "kelvinsPick": false
+    },
+    {
+      "name": "jesseduffield/lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "starsThisWeek": 110,
+      "kelvinsPick": false
+    },
+    {
+      "name": "9001/copyparty",
+      "url": "https://github.com/9001/copyparty",
+      "starsThisWeek": 92,
+      "kelvinsPick": false
+    },
+    {
+      "name": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "starsThisWeek": 92,
+      "kelvinsPick": false
+    },
+    {
+      "name": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "starsThisWeek": 91,
+      "kelvinsPick": false
+    },
+    {
+      "name": "trekhleb/javascript-algorithms",
+      "url": "https://github.com/trekhleb/javascript-algorithms",
+      "starsThisWeek": 83,
+      "kelvinsPick": false
+    }
+  ],
+  "videos": [
+    {
+      "title": "Uber: Leading engineering through an agentic shift - The Pragmatic Summit",
+      "youtubeId": "i1tZN41VKcE",
+      "why": "See how large-scale engineering organizations are adopting agentic AI while managing adoption resistance.",
+      "description": "84% of Uber developers use agentic coding tools with 65-72% AI-generated code in IDEs. Uber built internal agents, MCP gateway, code review systems, and test generation tools, discovering that peer influence drives adoption faster than mandates.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "The Future Of Brain-Computer Interfaces",
+      "youtubeId": "5gspRJVp9dI",
+      "why": "Brain-computer interfaces are transitioning from research to real-world applications with accessibility and productivity implications.",
+      "description": "BCIs measure brain signals and initiate external actions, currently restoring communication for ALS and spinal injury patients. Wearable sensors and AI-powered systems now enable home and workplace use beyond laboratory settings.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "7 new open source AI tools you need right now…",
+      "youtubeId": "Xn-gtHDsaPY",
+      "why": "Discover emerging open-source AI tools that can be integrated into your development workflow.",
+      "description": "Overview of seven practical open-source AI tools changing how developers build in 2026, covering various use cases from code generation to automation.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "The greatest unsolved problem in computer science...",
+      "youtubeId": "x36UmiSiEzc",
+      "why": "Understanding the P vs NP problem is fundamental to grasping computational complexity limits.",
+      "description": "The P vs NP question asks whether problems easy to verify are also easy to solve. Resolving it would revolutionize security, science, and mathematics, with solutions worth far more than its $1M prize.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "The programming habit I wish I started sooner",
+      "youtubeId": "XLVY6jr3JTw",
+      "why": "Establishing daily learning habits compounds expertise faster than sporadic self-study.",
+      "description": "Making consistent learning part of your routine, whether mastering fundamentals or staying current with new frameworks, builds lasting expertise. The most productive developers prioritize solving customer problems over writing perfect code.",
+      "kelvinsPick": true
+    },
+    {
+      "title": "ChatGPT skills in beta for ChatGPT Business & Enterprise",
+      "youtubeId": "qh93rLRPw80",
+      "why": "Understand how reusable, shareable workflows improve consistency and automation in enterprise ChatGPT deployments.",
+      "description": "Skills in ChatGPT allow bundling instructions, examples, and code into reusable workflows that ChatGPT automatically invokes. Available for Business and Enterprise plans with compliance logs and data privacy controls.",
+      "kelvinsPick": false
+    }
+  ],
+  "podcasts": [
+    {
+      "title": "From IDEs to AI Agents with Steve Yegge",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/6rSG9IY6qnMFX0wdUD1R6c",
+      "why": "Understand the evolution from coding IDEs to AI-agent orchestration and what it means for your career.",
+      "description": "Steve Yegge outlines eight levels of AI proficiency, from tab completion through multi-agent orchestration and agent factories. The future involves conversations with AI agents and monitoring their work rather than writing code by hand, requiring developers to shift from coding to agent supervision.",
+      "kelvinsPick": true
+    },
+    {
+      "title": "Big change brings big change (News)",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/6BxZA8HEWuc28eQhI7YPu0",
+      "why": "Stay informed on significant tech and business trends reshaping the industry.",
+      "description": "News podcast covering major shifts and changes in technology, business policy, and market conditions affecting engineering teams.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Episode 503: Hardware is hard and my PMs are pushing AI slop code",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/5J8svMoiHFnifJQwJdCbVR",
+      "why": "Addresses tensions between hardware constraints, product management pressure, and code quality in AI-generated code era.",
+      "description": "Discusses the challenges of managing AI-generated code quality when PMs push for speed, and hardware limitations that force engineering trade-offs.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "From Tailnet to platform (Interview)",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/7ukOu0L7tQa7alvAcBJtgG",
+      "why": "Learn how network infrastructure evolves from simple tailnets into comprehensive platform solutions.",
+      "description": "Interview exploring the architectural journey from secure network connections to full platform systems that support complex infrastructure requirements.",
+      "kelvinsPick": false
+    }
+  ],
+  "kelvinsPick": {
+    "title": "Niri: A Window Manager So Good I Abandoned My Dotfiles",
+    "url": "https://github.com/niri-wm/niri",
+    "description": "I have been using hyprland on my Linux machine for a while and it has way too many breaking changes. I switched to Niri a few weeks ago and it comes with sane defaults so good that I threw away the widgets and bars I have spent hours crafting. HIGHLY RECOMMENDED!"
+  }
+}
