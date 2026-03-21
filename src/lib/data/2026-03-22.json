@@ -1,0 +1,174 @@
+{
+  "date": "2026-03-22",
+  "articles": [
+    {
+      "title": "Claude Code told me what tools it needs to work faster. Oh boy I was missing so many things.",
+      "url": "https://sderosiaux.substack.com/p/claude-code-told-me-what-tools-it?r=7ua1fm&triedRedirect=true",
+      "why": "Understanding what tools speed up AI assistants helps you optimize your development environment for coding agents.",
+      "description": "The article identifies essential tools for AI assistants like ripgrep, fd, DuckDB, and git-delta. Providing proper tooling and environment setup is as important as the AI model itself for productive AI-assisted development.",
+      "kelvinsPick": true
+    },
+    {
+      "title": "The 80% Problem in Agentic Coding",
+      "url": "https://addyo.substack.com/p/the-80-problem-in-agentic-coding?r=7ua1fm&triedRedirect=true",
+      "why": "As AI generates most code, developers face new risks of not understanding their own codebases.",
+      "description": "When AI handles 80% of code generation, the remaining human responsibility becomes exponentially harder due to comprehension gaps and shifted error types. Developers increasingly become supervisors managing agent output rather than builders creating solutions directly.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Stop Using Pull Requests",
+      "url": "https://open.substack.com/pub/a4al6a/p/stop-using-pull-requests?utm_source=share&utm_medium=android&r=7ua1fm",
+      "why": "Pull requests were designed for untrusted contributors, not high-trust internal teams, causing unnecessary friction.",
+      "description": "PRs waste time through async wait cycles and large batch sizes but fail to catch most bugs. Trunk-based development with test-driven and pair programming approaches delivers better outcomes, as shown by DORA research.",
+      "kelvinsPick": true
+    },
+    {
+      "title": "Powering the agents: Workers AI now runs large models, starting with Kimi K2.5",
+      "url": "https://blog.cloudflare.com/workers-ai-large-models/",
+      "why": "Cloudflare Workers AI's support for large frontier models expands deployment options for agentic applications.",
+      "description": "Cloudflare has launched support for Kimi K2.5 with optimization features including prefix caching, custom kernels, and an asynchronous API that prevents capacity errors through a pull-based queue system.",
+      "kelvinsPick": false
+    }
+  ],
+  "repos": [
+    {
+      "name": "pathwaycom/pathway",
+      "url": "https://github.com/pathwaycom/pathway",
+      "starsThisWeek": 902,
+      "kelvinsPick": false
+    },
+    {
+      "name": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "starsThisWeek": 152,
+      "kelvinsPick": false
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "starsThisWeek": 130,
+      "kelvinsPick": false
+    },
+    {
+      "name": "AykutSarac/jsoncrack.com",
+      "url": "https://github.com/AykutSarac/jsoncrack.com",
+      "starsThisWeek": 126,
+      "kelvinsPick": false
+    },
+    {
+      "name": "ReVanced/revanced-manager",
+      "url": "https://github.com/ReVanced/revanced-manager",
+      "starsThisWeek": 107,
+      "kelvinsPick": false
+    },
+    {
+      "name": "pocketbase/pocketbase",
+      "url": "https://github.com/pocketbase/pocketbase",
+      "starsThisWeek": 107,
+      "kelvinsPick": false
+    },
+    {
+      "name": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "starsThisWeek": 99,
+      "kelvinsPick": false
+    },
+    {
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "starsThisWeek": 93,
+      "kelvinsPick": false
+    },
+    {
+      "name": "1N3/Sn1per",
+      "url": "https://github.com/1N3/Sn1per",
+      "starsThisWeek": 88,
+      "kelvinsPick": false
+    },
+    {
+      "name": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "starsThisWeek": 59,
+      "kelvinsPick": false
+    }
+  ],
+  "videos": [
+    {
+      "title": "Simon Willison: Engineering practices that make coding agents work - The Pragmatic Summit",
+      "youtubeId": "owmJyKVu5f8",
+      "why": "Simon Willison's agentic engineering patterns provide documented practices for safely and effectively using coding agents.",
+      "description": "The talk covers how developers phase into relying on AI agents and emphasizes sandboxing as the most critical safety practice. Willison has also documented agentic engineering patterns to help teams maximize results from coding tools like Claude Code.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Google just changed the future of UI/UX design...",
+      "youtubeId": "qaB5HF4ax9M",
+      "why": "AI-native design tools are transforming how user interfaces get created and iterated.",
+      "description": "Google's Stitch is an AI-native design platform using vibe design to convert natural language intent into high-fidelity, production-ready UI through an infinite canvas. Material You 3.0 also brings on-device AI for hyper-personalized, context-aware experiences.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "I did not expect this...",
+      "youtubeId": "JKbVk6bIXvA",
+      "why": "Understanding the limitations of vibe coding prevents costly architectural mistakes in AI-assisted development.",
+      "description": "Vibe coding struggles when projects become structurally tangled, as each AI-generated fix tends to break something else. Once entrapped in this cycle, additional prompting makes the codebase worse rather than better.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Agents For Non-Technical Users",
+      "youtubeId": "8SVocWnDHwE",
+      "why": "Non-technical users building production software through AI agents represents a major shift in accessibility.",
+      "description": "The Emergent platform enables anyone to build and deploy production-ready apps through AI agents, with over 7 million apps created in the platform. This demonstrates how AI agents are unlocking a new generation of builders beyond traditional programmers.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "How Monzo Survived a 2-Year Migration (and Why You Might Not)",
+      "youtubeId": "nnN9T6qRrAs",
+      "why": "Monzo's TypeScript migration provides a practical roadmap for executing large-scale technical transformations.",
+      "description": "The talk by Sophie Koonin covers how Monzo migrated from Flow to TypeScript over two years while keeping stakeholders aligned. Key lessons include balancing technical debt with feature work and using automation to manage incremental rollouts across complex systems.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "The rise and fall of famo.us...",
+      "youtubeId": "ReAnFFqvCeA",
+      "why": "Famo.us's collapse illustrates how even promising technology can fail without sustainable business models.",
+      "description": "Famo.us raised $25M for a JavaScript rendering engine that could bypass CSS and produce impressive graphics, but struggled to monetize and pivoted multiple times. The founder admits confusing hype for traction, offering lessons in validating demand before scaling.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "This new Linux distro is breaking the law, by design…",
+      "youtubeId": "nkY_s9HpL9M",
+      "why": "Ageless Linux demonstrates technical resistance to government regulation affecting open-source projects.",
+      "description": "Several Linux distributions including Ageless Linux are in deliberate noncompliance with California's age verification law (AB 1043). These projects challenge regulatory scope by showing how OS-level requirements can conflict with open-source principles.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Vibe coders can't stop losing",
+      "youtubeId": "mBlCn0Hfbvo",
+      "why": "Understanding the limitations of vibe coding prevents costly architectural mistakes in AI-assisted development.",
+      "description": "Vibe coding struggles when projects become structurally tangled, as each AI-generated fix tends to break something else. Once entrapped in this cycle, additional prompting makes the codebase worse rather than better.",
+      "kelvinsPick": false
+    }
+  ],
+  "podcasts": [
+    {
+      "title": "Building WhatsApp with Jean Lee",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/56bXJZveAm2QfPViN8FPuk",
+      "why": "Jean Lee's perspective as engineer #19 at WhatsApp offers insights into scaling systems to billions of users with minimal engineering overhead.",
+      "description": "Lee shares how WhatsApp chose Erlang, avoided cross-platform abstractions, and kept the company intentionally small by saying no to features for years. The company supported hundreds of millions of users with roughly 30 engineers during the $19B acquisition.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "The Career Strategy That Survives AI",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/1rPq1cAczcfZ5evu3QjzZ8",
+      "why": "Understanding career resilience in an AI-driven world helps engineers navigate evolving job roles and opportunities.",
+      "description": "The podcast features conversations with people who've had exceptional careers, including discussions on enterprise software, how AI agents unlock new builders, and what it takes to maintain a founder mindset regardless of your role.",
+      "kelvinsPick": false
+    }
+  ],
+  "kelvinsPick": {
+    "title": "Boris Cherny's Claude Workflow",
+    "url": "https://www.youtube.com/watch?v=WpQZlKiy3zo&t=179s",
+    "description": "Boris is shipping 27 PRs a day, look at how he is doing that here."
+  }
+}
