@@ -1,0 +1,167 @@
+{
+  "date": "2026-03-29",
+  "articles": [
+    {
+      "title": "Auto mode for Claude Code",
+      "url": "https://claude.com/blog/auto-mode",
+      "why": "Auto mode reduces workflow interruptions by automatically approving safe operations while blocking dangerous ones.",
+      "description": "Auto mode uses a classifier to distinguish safe from risky actions, eliminating constant permission prompts while maintaining security guardrails. It's currently available as a research preview for Claude Team users.",
+      "kelvinsPick": true
+    },
+    {
+      "title": "From idea to app: Introducing Stitch, a new way to design UIs",
+      "url": "https://developers.googleblog.com/stitch-a-new-way-to-design-uis/",
+      "why": "Stitch can generate frontend code from simple text and image inputs, speeding up UI development.",
+      "description": "Stitch uses AI to convert design prompts and sketches into working UI designs and exportable code. It enables rapid design iteration and bridges the traditional gap between design and development workflows.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "How we use Abstract Syntax Trees (ASTs) to turn Workflows code into visual diagrams",
+      "url": "https://blog.cloudflare.com/workflow-diagrams/",
+      "why": "Learn how Cloudflare uses ASTs to automatically visualize workflow execution patterns without runtime analysis.",
+      "description": "Cloudflare converts minified JavaScript into ASTs using oxc-parser, then analyzes Promise relationships to determine which steps execute sequentially or in parallel. This enables automatic diagram generation for complex workflows including loops, conditionals, and nested structures.",
+      "kelvinsPick": false
+    }
+  ],
+  "repos": [
+    {
+      "name": "ente-io/ente",
+      "url": "https://github.com/ente-io/ente",
+      "starsThisWeek": 144,
+      "kelvinsPick": false
+    },
+    {
+      "name": "chroma-core/chroma",
+      "url": "https://github.com/chroma-core/chroma",
+      "starsThisWeek": 89,
+      "kelvinsPick": false
+    },
+    {
+      "name": "coollabsio/coolify",
+      "url": "https://github.com/coollabsio/coolify",
+      "starsThisWeek": 87,
+      "kelvinsPick": false
+    },
+    {
+      "name": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "starsThisWeek": 80,
+      "kelvinsPick": false
+    },
+    {
+      "name": "EmulatorJS/EmulatorJS",
+      "url": "https://github.com/EmulatorJS/EmulatorJS",
+      "starsThisWeek": 66,
+      "kelvinsPick": false
+    },
+    {
+      "name": "ajeetdsouza/zoxide",
+      "url": "https://github.com/ajeetdsouza/zoxide",
+      "starsThisWeek": 54,
+      "kelvinsPick": false
+    },
+    {
+      "name": "supabase/cli",
+      "url": "https://github.com/supabase/cli",
+      "starsThisWeek": 54,
+      "kelvinsPick": false
+    },
+    {
+      "name": "SharpAI/DeepCamera",
+      "url": "https://github.com/SharpAI/DeepCamera",
+      "starsThisWeek": 44,
+      "kelvinsPick": false
+    },
+    {
+      "name": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "starsThisWeek": 30,
+      "kelvinsPick": false
+    },
+    {
+      "name": "microsoft/presidio",
+      "url": "https://github.com/microsoft/presidio",
+      "starsThisWeek": 23,
+      "kelvinsPick": false
+    }
+  ],
+  "videos": [
+    {
+      "title": "Anthropic just released the real Claude Bot...",
+      "youtubeId": "wfeiCZK0mNs",
+      "why": "Claude's new autonomous capabilities enable it to take actions on your computer directly, expanding AI's role in software engineering.",
+      "description": "Claude can now use computer control features to execute tasks autonomously, representing a shift toward more capable AI agents. This capability has driven significant growth in Claude usage among developers.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Nicole Forsgren: Leading high-performing engineering teams in the age of AI - The Pragmatic Summit",
+      "youtubeId": "DfrAaDgFgjc",
+      "why": "Learn how leading engineering teams adapt their practices and culture to leverage AI effectively without losing fundamentals.",
+      "description": "Forsgren builds on her DORA research to show how eliminating friction in development workflows isn't just about developer happiness, it's about competitive advantage. Her framework covers how teams should restructure processes and mindsets to work effectively with AI tools while maintaining code quality.",
+      "kelvinsPick": true
+    },
+    {
+      "title": "Agentic Systems Without Chaos: Early Operating Models for Autonomous Agents",
+      "youtubeId": "gkGudLbTfHQ",
+      "why": "Understand practical architectural patterns and operational challenges when building autonomous agent systems.",
+      "description": "The episode explores how agentic systems differ from traditional automation, covering orchestration, observability, and human-in-the-loop models. It discusses emerging risks like prompt injection and tool misuse, along with lessons from building centralized AI platforms across multiple teams.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "François Chollet: Why Scaling Alone Isn’t Enough for AGI",
+      "youtubeId": "k2ZLQC8P7dc",
+      "why": "Understanding the limitations of scaling-based approaches challenges assumptions about how AGI development should proceed.",
+      "description": "Chollet argues that achieving AGI requires more than just increasing model scale, emphasizing that data quality, training techniques, and architectural innovation are equally critical. This perspective is important for understanding current AI development priorities.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Patrick Debois: Why Your Job Is Shifting from Coding to Managing Agents",
+      "youtubeId": "jA9XLa3ugMU",
+      "why": "Understand how AI agents are reshaping software engineering roles and career trajectories.",
+      "description": "Debois discusses how engineering jobs are evolving as AI agents take on more coding tasks, shifting focus toward orchestration, monitoring, and strategic problem-solving. This reflects broader changes in how engineering teams are organized and what skills matter most.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Product-minded engineers in an AI-native world",
+      "youtubeId": "0Cv5763UX70",
+      "why": "Product thinking combined with AI-native development is becoming essential for engineering effectiveness.",
+      "description": "Engineers who understand customer context and business outcomes thrive when AI tools collapse the gap between idea and implementation. Being AI-native means continuously adapting to evolving tools and practices, not just using them as replacements for traditional workflows.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "What's Worth Knowing In AI Right Now? (with Henry Garner)",
+      "youtubeId": "43lsrgkhJ8c",
+      "why": "Henry Garner's experience building AI systems with large enterprise teams reveals practical patterns that work and fail.",
+      "description": "Garner, CTO of JUXT, discusses topics like MCP versus skills, fine-tuning, neurosymbolic AI, and practical adoption challenges. His team has seen the full arc from skepticism through building complex distributed systems with Claude, offering grounded perspectives on what actually matters in AI implementation.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Why 10x Engineers Fail: The Culture Gap in Tech Hiring",
+      "youtubeId": "LPE0TKPM2F8",
+      "why": "The culture and organizational structure matter far more than individual brilliance for sustainable engineering success.",
+      "description": "Great engineering organizations enable normal developers to move fast and ship reliable code, not through hiring mythical superstars but through eliminating friction and building strong team culture. The persistence of 10x engineer mythology distracts from the real work of building effective organizations.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Why Most Agentic AI Fails (And How to Fix It)",
+      "youtubeId": "P4AchVT4j44",
+      "why": "Understanding why agentic AI projects fail helps you avoid unrealistic expectations and architectural pitfalls.",
+      "description": "Over 40% of agentic AI projects will be canceled by 2027 due to unrealistic expectations, brittle infrastructure, and unclear ROI. Success requires realistic scoping, strong observability, and human-in-the-loop workflows rather than fully autonomous systems.",
+      "kelvinsPick": false
+    }
+  ],
+  "podcasts": [
+    {
+      "title": "Astral has been acquired by OpenAI (News)",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/4FDWLN1yLPVKszfJl6vWpP",
+      "why": "Astral's acquisition signals OpenAI's commitment to dominating AI-powered development tools and the Python ecosystem.",
+      "description": "OpenAI acquired Astral, makers of popular Python tools like uv, Ruff, and Typer, to integrate them with Codex. This consolidation reflects the competitive push to own the entire development toolkit, from coding assistance to package management and linting.",
+      "kelvinsPick": false
+    }
+  ],
+  "kelvinsPick": {
+    "title": "Env Var Per Directory",
+    "url": "https://github.com/direnv/direnv",
+    "description": "Do you find yourself having to set different env variables depending on what directory you are in the terminal? Direnv helps you do just that!"
+  }
+}
