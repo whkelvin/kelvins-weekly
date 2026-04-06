@@ -1,0 +1,248 @@
+{
+  "date": "2026-04-05",
+  "articles": [
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "why": "Reduces approval fatigue by intelligently deciding when actions need review instead of constant interruptions.",
+      "description": "Claude Code auto mode uses AI classifiers to automatically approve or deny actions, creating a middle ground between interruption and careless approvals. The system employs dual-layer defense with server-side prompt injection detection and transcript classification, though it explicitly isn't a replacement for human review on critical systems.",
+      "kelvinsPick": true
+    },
+    {
+      "title": "Harness design for long-running application development",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "why": "Shows how to structure multi-agent systems for reliability by separating planning, generation, and evaluation.",
+      "description": "Harness design uses specialized agents for planning, implementation, and evaluation to handle complex tasks. The key insight is separating evaluation from generation so agents can critique objectively, using context resets rather than compaction for coherence, and decomposing tasks into negotiated sprint contracts to prevent scope drift.",
+      "kelvinsPick": true
+    },
+    {
+      "title": "Harnessing Claude’s intelligence",
+      "url": "https://claude.com/blog/harnessing-claudes-intelligence",
+      "why": "Questions outdated harness design constraints as models improve and help eliminate unnecessary complexity.",
+      "description": "As Claude capabilities evolve, developers should periodically ask what constraints they can stop imposing. Let Claude orchestrate tool calls through code, manage its own context using skills and progressive disclosure, and persist memory directly rather than relying solely on retrieval systems to maintain performance.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "How Confessions Can Keep Language Models Honest",
+      "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest/",
+      "why": "Introduces a training technique that significantly improves model transparency and honesty about rule violations.",
+      "description": "Confessions are separate outputs trained exclusively for honesty where models report compliance with instructions without penalty. The method achieved 95.6% detection of misbehavior in tests, enabling models to transparently admit when they violate rules or constraints, improving monitoring of model behavior.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "How Perplexity Brought Voice Search to Millions Using the Realtime API",
+      "url": "https://developers.openai.com/blog/realtime-perplexity-computer",
+      "why": "Demonstrates practical implementation patterns for building production voice agents at scale with real-world constraints.",
+      "description": "Perplexity used context segmentation with 2,000-token chunks, audio standardization via a Rust SDK, careful voice activity detection calibration for noisy environments, and minimal tool architecture with structured JSON outputs. These techniques proved essential for stable interactions across millions of monthly voice sessions.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Instruction Hierarchy Challenge",
+      "url": "https://openai.com/index/instruction-hierarchy-challenge/",
+      "why": "Provides a dataset and training approach to harden models against prompt injection attacks.",
+      "description": "IH-Challenge trains models to respect instruction hierarchy (System > Developer > User > Tool) making them resistant to prompt injection attacks. The dataset uses objectively gradable tasks where higher-privilege instructions must not be overridden, significantly improving safety steerability without causing over-refusal.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Introducing the Model Spec",
+      "url": "https://openai.com/index/introducing-the-model-spec/",
+      "why": "Documents OpenAI's comprehensive approach to shaping desired model behavior and resolving tradeoffs.",
+      "description": "The Model Spec specifies three broad objectives: assisting developers and users, benefiting humanity by considering stakeholder impacts, and respecting social norms and law. It serves as guidelines for RLHF researchers and AI trainers, and OpenAI is exploring whether models can learn directly from the spec itself.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Meet the new Cursor",
+      "url": "https://cursor.com/blog/cursor-3",
+      "why": "Shows the evolution toward agent fleet management rather than micromanaging individual agent tasks.",
+      "description": "Cursor 3 provides unified orchestration of local and cloud agents with seamless environment switching. Engineers can assign long-running tasks to cloud agents while offline, then resume iteration locally using Composer 2, positioning teams at a higher abstraction level of autonomous software development.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Powering Multimodal Intelligence for Video Search",
+      "url": "https://netflixtechblog.com/powering-multimodal-intelligence-for-video-search-3e0020cf1202",
+      "why": "Demonstrates how to orchestrate ensemble ML models for complex search across massive video libraries.",
+      "description": "Netflix's approach combines character detection, visual environment mapping, and dialogue parsing with linguistic stemming, fuzzy matching for transcription errors, and a nested document architecture for efficient cross-annotation queries at scale across thousands of assets simultaneously.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Provision a production-ready dev stack from your terminal",
+      "url": "https://stripe.dev/blog/production-ready-dev-stack-from-terminal",
+      "why": "Solves credential sprawl and reproducible infrastructure setup through unified CLI provisioning.",
+      "description": "Stripe Projects centralizes infrastructure provisioning through the CLI, eliminating dashboard hopping and credential copy-paste. Resources remain in your own accounts with normal dashboards, credentials sync deterministically, and changes are auditable and repeatable, making team onboarding predictable instead of a scavenger hunt.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Put Claude to work on your computer",
+      "url": "https://claude.com/blog/dispatch-and-computer-use",
+      "why": "Enables asynchronous workflow automation where Claude handles tasks lacking native integrations.",
+      "description": "Claude Dispatch allows remote task assignment that executes asynchronously while you're away, while Computer Use lets Claude interact with your desktop directly by clicking and navigating. Together they extend Claude beyond native integrations, though they trade efficiency for control in this research preview stage.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Reasoning Models Chain of Thought Controllability",
+      "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability/",
+      "why": "Shows that reasoning models struggle to hide their thought processes, which is good for safety monitoring.",
+      "description": "OpenAI's CoT-Control evaluation suite reveals frontier models can barely control their own reasoning to evade detection, with controllability scores ranging from 0.1% to 15.4%. This is encouraging for transparency since models cannot easily manipulate their intermediate reasoning steps to hide misbehavior.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Sandboxing AI agents, 100x faster",
+      "url": "https://blog.cloudflare.com/dynamic-workers/",
+      "why": "Demonstrates how isolates enable consumer-scale AI agents without container overhead.",
+      "description": "Cloudflare's isolates (V8 engine instances) start in milliseconds versus containers' hundreds of milliseconds. The Dynamic Worker Loader API lets agents spawn isolated code via TypeScript definitions rather than REST endpoints, supporting per-user agents at scale through hardware-level defenses and RPC bridges.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Smarter Live Streaming at Scale: Rolling Out VBR for All Netflix Live Events",
+      "url": "https://netflixtechblog.com/smarter-live-streaming-at-scale-rolling-out-vbr-for-all-netflix-live-events-c8f833b238cc",
+      "why": "Shows how adaptive bitrate encoding improves streaming efficiency and scalability at global scale.",
+      "description": "Netflix replaced constant bitrate with quality-defined variable bitrate (QVBR) encoding that adjusts bitrate based on scene complexity. Simple scenes use less bandwidth while complex action temporarily uses more bits, reducing network load and CDN strain while maintaining consistent quality across millions of concurrent streams.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Why Language Models Hallucinate",
+      "url": "https://openai.com/index/why-language-models-hallucinate/",
+      "why": "Explains that hallucinations stem from training incentives that reward guessing over acknowledging uncertainty.",
+      "description": "OpenAI's research shows models hallucinate because evaluation methods reward correct guesses over admitting uncertainty. The problem originates during pretraining where models predict next words without true/false labels, making it harder to distinguish valid statements from invalid ones during training."
+    }
+  ],
+  "repos": [
+    {
+      "name": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "starsThisWeek": 339,
+      "kelvinsPick": false
+    },
+    {
+      "name": "vadimdemedes/ink",
+      "url": "https://github.com/vadimdemedes/ink",
+      "starsThisWeek": 305,
+      "kelvinsPick": false
+    },
+    {
+      "name": "lukasz-madon/awesome-remote-job",
+      "url": "https://github.com/lukasz-madon/awesome-remote-job",
+      "starsThisWeek": 115,
+      "kelvinsPick": false
+    },
+    {
+      "name": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "starsThisWeek": 78,
+      "kelvinsPick": false
+    },
+    {
+      "name": "upscayl/upscayl",
+      "url": "https://github.com/upscayl/upscayl",
+      "starsThisWeek": 78,
+      "kelvinsPick": false
+    },
+    {
+      "name": "axios/axios",
+      "url": "https://github.com/axios/axios",
+      "starsThisWeek": 69,
+      "kelvinsPick": false
+    },
+    {
+      "name": "neovim/neovim",
+      "url": "https://github.com/neovim/neovim",
+      "starsThisWeek": 68,
+      "kelvinsPick": false
+    },
+    {
+      "name": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "starsThisWeek": 61,
+      "kelvinsPick": false
+    },
+    {
+      "name": "dgtlmoon/changedetection.io",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "starsThisWeek": 47,
+      "kelvinsPick": false
+    },
+    {
+      "name": "calcom/cal.com",
+      "url": "https://github.com/calcom/cal.com",
+      "starsThisWeek": 42,
+      "kelvinsPick": false
+    }
+  ],
+  "videos": [
+    {
+      "title": "\" It is very possible that the first people to live to a thousand are alive right now.\"",
+      "youtubeId": "Afp90LAaXNw",
+      "why": "Explores how brain-computer interfaces and AI could fundamentally change human lifespan possibilities.",
+      "description": "Max Hodak from Science discusses how advances in neurotechnology and AI might enable restoration of vision and neurological function. The talk challenges assumptions about human lifespan limits and explores the intersection of AI and neuroscience in extending or transforming human capabilities.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Chip Huyen: Building when it feels like there's nothing left to build - The Pragmatic Summit",
+      "youtubeId": "5nMa3p3qw1w",
+      "why": "Addresses the psychological and strategic challenges of founding companies in mature or saturated markets.",
+      "description": "Chip Huyen discusses how builders maintain momentum and find differentiation when the obvious problems seem solved. The talk likely covers practical approaches to identifying unseized opportunities and building products even when the space feels crowded or mature.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "He just crawled through hell to fix the browser…",
+      "youtubeId": "vd14EElCRvs",
+      "why": "Documents a deep dive into complex browser or developer tool troubleshooting and problem-solving.",
+      "description": "An intense narrative about diagnosing and fixing a critical browser issue. The video shows the lengths engineers go to solve foundational infrastructure problems and the perseverance required when dealing with deep technical challenges in widely-used tools.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "How to Build a Multi Cloud Architecture like Netflix Without Doubling Your Cloud Bill",
+      "youtubeId": "IQZPC0sFqMk",
+      "why": "Explains how Netflix balances multi-cloud strategy with cost efficiency at massive scale.",
+      "description": "Netflix operates on AWS and their own Open Connect CDN to balance cost and performance globally. The architecture uses EC2 for compute, S3 for storage, DynamoDB for databases, and regional distribution to handle outages gracefully while managing cloud spending at scale across millions of concurrent streams.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Tragic mistake... Anthropic leaks Claude’s source code",
+      "youtubeId": "mBHRPeg8zPU",
+      "why": "Analyzes a significant source code leak that reveals implementation details and unreleased features.",
+      "description": "Anthropic accidentally shipped 500,000 lines of Claude Code source via npm packaging error in March 2026. The leaked code revealed 44 unreleased feature flags, including an Undercover Mode for stealth contributions. While Anthropic confirmed no credentials or customer data leaked, it highlighted how closely AI product engineering relies on Claude itself.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Why LLMs Fail at UI Testing - And How to Actually Fix It",
+      "youtubeId": "UZugswTUXtw",
+      "why": "Identifies fundamental limitations of LLMs in automated UI testing and proposes practical solutions.",
+      "description": "LLMs struggle with UI testing because they lack true interaction, fail at precise element targeting, and can't verify visual correctness reliably. The video explores workarounds and approaches that address these gaps to make AI more practical for testing complex user interfaces."
+    }
+  ],
+  "podcasts": [
+    {
+      "title": "Episode 505: Called to the principal's office and my team leads are super dogmatic",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/4Cy6GK4Q2Ipd7l6o4A5lz5",
+      "why": "Addresses navigating rigid team leadership and rebuilding relationships after conflict.",
+      "description": "From Soft Skills Engineering, a listener describes dogmatic platform engineers blocking solutions and feeling like gatekeepers rather than helpers. The episode explores how to rebuild trust, stay focused on problems, and change a culture where builders feel constrained instead of supported.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Episode 506: I hate my job with AI and my team-mate thinks I suck",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/1MkpL4OWdSWq3pfCWaX3xy",
+      "why": "Tackles dissatisfaction with AI-focused work and managing difficult interpersonal dynamics.",
+      "description": "This Soft Skills Engineering episode addresses career frustration when working primarily on AI, while also dealing with teammates who don't respect your contributions. The discussion covers both finding satisfaction in specialized work and strategies for gaining peer respect in tension-filled relationships.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "I Tried Everything to Get Hired. This Is What Worked.",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/4uuJuBZr89CNqG4VBkublZ",
+      "why": "Provides practical strategies for job search success after trying conventional approaches.",
+      "description": "A real account of what worked when standard interviewing and application tactics weren't landing offers. The episode likely covers unconventional networking, portfolio work, or approach changes that finally broke through the job search roadblock.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Scaling Uber with Thuan Pham (Uber’s first CTO)",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/13v42Y6P0TH36fVxZsMVmc",
+      "why": "Documents the technical leadership journey of scaling from dozens of cities to nearly 1000 globally.",
+      "description": "Thuan Pham shares his experience as Uber’s first CTO (2013-2020), covering the evolution from constant outages to global infrastructure. Topics include the shift to microservices, platform team organization, and how AI is now reshaping engineering at scale."
+    }
+  ],
+  "kelvinsPick": {
+    "title": "Quickly Spin Up Sandbox Env",
+    "url": "https://sprites.dev/",
+    "description": "I've been playing with this recently to spin up a sandbox env very quickly."
+  }
+}
