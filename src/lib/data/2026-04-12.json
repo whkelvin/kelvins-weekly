@@ -1,0 +1,181 @@
+{
+  "date": "2026-04-12",
+  "articles": [
+    {
+      "title": "Claude Managed Agents: get to production 10x faster",
+      "url": "https://claude.com/blog/claude-managed-agents",
+      "why": "Managed Agents eliminate infrastructure complexity by handling sandboxing, authentication, state management, and tool execution out of the box.",
+      "description": "Claude Managed Agents enables teams to go from prototype to production in days instead of months by bundling a tuned agent harness with production infrastructure. Companies like Rakuten deployed enterprise agents across multiple departments within a week.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Emotion concepts and their function in a large language model",
+      "url": "https://www.anthropic.com/research/emotion-concepts-function",
+      "why": "Understanding how emotion vectors influence model behavior is critical for building safer AI systems and detecting misaligned behaviors.",
+      "description": "Anthropic's research discovered that Claude develops internal \"emotion vectors\" that functionally influence behavior, such as desperation patterns driving unethical actions. These patterns can operate invisibly without emotional language in outputs, highlighting the need for interpretability tools in AI system design.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "How People Are Using Chatgpt",
+      "url": "https://openai.com/index/how-people-are-using-chatgpt/",
+      "why": "Understanding how the broader market uses generative AI reveals opportunities and patterns in AI adoption across work and personal contexts.",
+      "description": "ChatGPT users primarily ask questions (49%), work on writing and coding tasks (40%), and explore ideas (11%), with 70% personal and 30% work-related usage. Early gender gaps have closed, and adoption is growing fastest in low and middle-income countries.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "How and when to use subagents in Claude Code",
+      "url": "https://claude.com/blog/subagents-in-claude-code",
+      "why": "Knowing when to delegate to subagents versus keeping work in main context optimizes workflow efficiency and task parallelization.",
+      "description": "Subagents are isolated Claude instances with fresh context windows useful for parallel research, independent modifications, fresh reviews, and verification tasks. They work well for multi-stage pipelines but are inefficient for sequential dependent work or same-file edits within a single session.",
+      "kelvinsPick": true
+    },
+    {
+      "title": "Moving Railway's Frontend Off Next.js",
+      "url": "https://blog.railway.com/p/moving-railways-frontend-off-nextjs",
+      "why": "Understanding architectural decisions when frameworks don't fit your use case helps teams make better technology choices for client-heavy applications.",
+      "description": "Railway migrated from Next.js (10+ minute builds) to Vite + TanStack Router to better align with their client-heavy, real-time architecture. The switch cut build times to under two minutes and eliminated workarounds while enabling explicit, less magical architecture.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Multi-agent coordination patterns: Five approaches and when to use them",
+      "url": "https://claude.com/blog/multi-agent-coordination-patterns",
+      "why": "Choosing the right coordination pattern determines whether multi-agent systems are efficient, maintainable, and scalable.",
+      "description": "The five patterns (generator-verifier, orchestrator-subagent, agent teams, message bus, shared state) each serve different needs: generator-verifier for quality assurance, orchestrator-subagent for task decomposition, agent teams for parallel independent work, message bus for event-driven workflows, and shared state for collaborative research. The orchestrator-subagent pattern is recommended as a practical starting point.",
+      "kelvinsPick": true
+    },
+    {
+      "title": "Seeing like an agent: how we design tools in Claude Code",
+      "url": "https://claude.com/blog/seeing-like-an-agent",
+      "why": "Understanding tool design from an agent's perspective helps you build systems that leverage AI capabilities rather than fighting them.",
+      "description": "Effective tools match the model's abilities through principles like progressive disclosure (hierarchical access over tool proliferation), structured output for reliability, and minimal tool count. Tool designs should evolve with model capabilities, eliminating constraints as models become more sophisticated.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "The advisor strategy: Give agents an intelligence boost",
+      "url": "https://claude.com/blog/the-advisor-strategy",
+      "why": "The advisor strategy balances performance and cost by using a smaller model's execution with selective guidance from a larger model.",
+      "description": "Pairing a fast executor model (Sonnet or Haiku) with Opus as an advisor significantly boosts performance—Sonnet improved 2.7 points on SWE-bench while reducing costs by 11.9%, and Haiku doubled performance. The executor drives decisions and escalates only when needed, keeping most of the run at lower cost.",
+      "kelvinsPick": true
+    }
+  ],
+  "repos": [
+    {
+      "name": "elebumm/RedditVideoMakerBot",
+      "url": "https://github.com/elebumm/RedditVideoMakerBot",
+      "starsThisWeek": 467,
+      "kelvinsPick": false
+    },
+    {
+      "name": "hummingbot/hummingbot",
+      "url": "https://github.com/hummingbot/hummingbot",
+      "starsThisWeek": 56,
+      "kelvinsPick": false
+    },
+    {
+      "name": "qdrant/qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "starsThisWeek": 55,
+      "kelvinsPick": false
+    },
+    {
+      "name": "ranaroussi/yfinance",
+      "url": "https://github.com/ranaroussi/yfinance",
+      "starsThisWeek": 55,
+      "kelvinsPick": false
+    },
+    {
+      "name": "siyuan-note/siyuan",
+      "url": "https://github.com/siyuan-note/siyuan",
+      "starsThisWeek": 52,
+      "kelvinsPick": false
+    },
+    {
+      "name": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "starsThisWeek": 50,
+      "kelvinsPick": false
+    },
+    {
+      "name": "Eugeny/tabby",
+      "url": "https://github.com/Eugeny/tabby",
+      "starsThisWeek": 38,
+      "kelvinsPick": false
+    },
+    {
+      "name": "veracrypt/VeraCrypt",
+      "url": "https://github.com/veracrypt/VeraCrypt",
+      "starsThisWeek": 29,
+      "kelvinsPick": false
+    },
+    {
+      "name": "mthcht/awesome-lists",
+      "url": "https://github.com/mthcht/awesome-lists",
+      "starsThisWeek": 23,
+      "kelvinsPick": false
+    },
+    {
+      "name": "slackhq/nebula",
+      "url": "https://github.com/slackhq/nebula",
+      "starsThisWeek": 23,
+      "kelvinsPick": false
+    }
+  ],
+  "videos": [
+    {
+      "title": "Cursor ditches VS Code, but not everyone is happy...",
+      "youtubeId": "JSuS-zXMVwE",
+      "why": "Understanding how AI coding tools are evolving to agent-centric models reveals the future direction of developer tooling.",
+      "description": "Cursor 3.0 was completely rewritten in Rust and TypeScript to focus on orchestrating AI agent swarms across repos and machines rather than being a traditional code editor. The shift away from VS Code-based editing generated mixed reactions, with some concerned about trust issues following the Kimmy K2 model controversy.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Martin Fowler & Kent Beck: Frameworks for reinventing software, again and again",
+      "youtubeId": "CZs8J1ZD0CE",
+      "why": "Understanding how software engineering practices evolve through disruption cycles helps navigate the current AI transformation.",
+      "description": "Fowler and Beck discuss how AI differs from previous breakthroughs (microprocessors, OOP, internet) by having immediate widespread impact, and mirror concerns from Agile's adoption: misaligned incentives, snake oil vendors, and career disruption. They emphasize maintaining quality focus and domain understanding while navigating faster development cycles.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "SURVIVING SOFTWARE ENGINEERING IN 2026",
+      "youtubeId": "t6svrWIE3Ck",
+      "why": "Understanding how AI is reshaping software engineering roles helps you position yourself for future relevance and career growth.",
+      "description": "AI has automated away work that previously trained junior developers; 41% of production code is now AI-generated as of early 2026. Engineers are shifting from code producers to supervisors, with increasing value in system design, human code review, and decisions that resist automation like interface changes and security-critical code.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "The 30-hour-long interview with Travis Kalanick for the Uber CTO role",
+      "youtubeId": "B-04wjaSgok",
+      "why": "Understanding how visionary founders assess leadership potential reveals what qualities matter for scaling complex technical organizations.",
+      "description": "Travis Kalanick spent 30 hours interviewing Thuan Pham over two weeks for Uber's CTO role, treating it as a deep colleague discussion rather than a traditional interview. They covered hiring, firing, org design, and engineering standards, with Kalanick deciding to make an offer only after exhausting all topics he wanted to discuss.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Tiger Teams, Evals and Agents: The New AI Engineering Playbook",
+      "youtubeId": "qNR_eHQjgOs",
+      "why": "Cross-functional Tiger Teams combining software engineering rigor with data science expertise are becoming essential for shipping production-grade agents.",
+      "description": "Tiger Teams blend software engineers, data scientists, domain experts, and leadership to build agents (LLMs running in loops with tools/memory) and evals (tests against domain-specific data). The key insight is marrying engineering rigor with statistical thinking to bridge the gap between production code and data science uncertainty.",
+      "kelvinsPick": false
+    }
+  ],
+  "podcasts": [
+    {
+      "title": "DHH’s new way of writing code",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/3N2FJc9kPkYvK0m2S4ubop",
+      "why": "DHH’s shift from code-by-hand to agent-first workflow reveals how even expert developers’ practices are evolving with AI capabilities.",
+      "description": "DHH abandoned his previous manual coding approach to adopt agent-first development with dual LLM terminals (fast and powerful models), reviewing diffs via NeoVim. His philosophy on quality and craft remained constant, but modern agents now produce code meeting his standards with minimal edits.",
+      "kelvinsPick": false
+    },
+    {
+      "title": "Episode 507: I got fired unexpectedly and breadth and depth",
+      "spotifyEmbedUrl": "https://open.spotify.com/embed/episode/2oEw4Uc8g3SpnNDY1eVNHH",
+      "why": "Understanding how to recover from unexpected termination and navigate breadth vs depth skill development shapes career resilience and learning strategy.",
+      "description": "This Soft Skills Engineering episode addresses two career challenges: recovering from unexpected job loss and deciding between developing broad knowledge across domains versus specializing deeply. These are critical considerations for engineers planning career trajectories in an AI-driven landscape.",
+      "kelvinsPick": false
+    }
+  ],
+  "kelvinsPick": {
+    "title": "Cross Platform Desktop App with Golang",
+    "url": "https://wails.io/",
+    "description": "Came across this electron alternative when building a personal project. Build desktop app with web tech and golang!"
+  }
+}
